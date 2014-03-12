@@ -1,4 +1,4 @@
-##FAQs on Elaboration
+##Elaboration
 
 ### What are dreams and reality machine?
 
