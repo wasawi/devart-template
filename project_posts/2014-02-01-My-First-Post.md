@@ -21,7 +21,7 @@ The fact that dreams have patterns helped us realised that it is possible for us
 
 Here is our research sketch of the patterns of sleep and its potential salient activation in the brain:
 
-![Dreaming Brain Patterns](project_images/neurosprawler_map_sketch.png?raw=true "Dreaming Brain Patterns") 
+![Dreaming Brain Patterns](../project_images/neurosprawler_map_sketch.png?raw=true "Dreaming Brain Patterns") 
 
 ### Why do I need to track my sleep and record my dreams?
 
@@ -47,7 +47,7 @@ We want to create a web-based repository where you can share your dream story th
 
 We are investigating as well on the usage of the brain wave (EEG) activity technology and how the data can be incorporated with Dreamsprawler. In principle, it should be possible to decode the visual content of mental processes like dreams and imagination. However, we still have to wait for the technology to be able to accurately capture good measurements of brain activity in comfort of our homes. At the moment, there is no complete computational model of the brain that processes a dreaming visual perception directly. But this is interesting because we believe our visualisation initiative will help people realise what dreams are really be made of.
 
-![Biometrics](project_images/Biometrics_Dreamscrawler.png?raw=true "Biometrics") 
+![Biometrics](../project_images/Biometrics_Dreamscrawler.png?raw=true "Biometrics") 
 
 
 
