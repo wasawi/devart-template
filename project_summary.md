@@ -1,13 +1,14 @@
 # Dreamsprawler
 
+
+#####"The Internet and dreams are the same, they are areas where the mind escapes...Its potential is wonderful, the ability to see a friend`s dream as if its your own inspirational experience, both of you seeing the same dream."
+(from the movie "Paprika" by Satoshi Kon)
+
+
 ## Authors
 Wendy Ann Mansilla 
 
 Jordi Puig, http://github.com/wasawi
-
-
-#####"The Internet and dreams are the same, they are areas where the mind escapes...Its potential is wonderful, the ability to see a friend`s dream as if its your own inspirational experience, both of you seeing the same dream."
-(from the movie "Paprika" by Satoshi Kon)
 
 
 ## Description
@@ -54,6 +55,7 @@ function test() {
  NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
 
 [Google+](https://plus.google.com/ "Google+")
+
 [Node.js](http://nodejs.org/ "Node.js")
 
 ..more soon
