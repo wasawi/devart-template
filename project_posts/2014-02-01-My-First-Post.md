@@ -43,14 +43,6 @@ We want to create a web-based repository where you can share your dream story th
 
 
 
-### How does the dream composition / performance look and sound like?
-
-Your shared dream is processed by our developed application and your dreams will activate the brain neurons. Each firing or activation of the neurons has corresponding synthesized sounds together with the brain`s visual consciousness activation. The performance, like the brain are interconnected, not by accident or randomness but by series of rules, patterns, interacting with each other.
-
----- insert video----
-
-
-
 ### What are future applications of Dreamsprawler?
 
 We are investigating as well on the usage of the brain wave (EEG) activity technology and how the data can be incorporated with Dreamsprawler. In principle, it should be possible to decode the visual content of mental processes like dreams and imagination. However, we still have to wait for the technology to be able to accurately capture good measurements of brain activity in comfort of our homes. At the moment, there is no complete computational model of the brain that processes a dreaming visual perception directly. But this is interesting because we believe our visualisation initiative will help people realise what dreams are really be made of.
