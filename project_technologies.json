@@ -9,10 +9,15 @@
             "Node.js",
             "Three.js",
             "Javascript",
+            "OpenFrameworks",
             "Webgl"
         ]
     },
     "themes": [
         "Dreams"
+        "Brain-Computer Visualization"
+         "Crowdsourcing"
+         "Nueroscience"
+         
     ]
 }
