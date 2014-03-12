@@ -53,10 +53,13 @@ function test() {
 ## Links to External Libraries
  NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
 
-[Example Link](http://www.google.com "Example Link")
+[Google+](https://plus.google.com/ "Google+")
+[Node.js](http://nodejs.org/ "Node.js")
+
+..more soon
 
 ## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
+More images/video
 
 ![Example Image](project_images/cover.jpg?raw=true "Example Image")
 
