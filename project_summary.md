@@ -16,7 +16,7 @@ Imagine yourself connected with thousands of dreamers each night. A social netwo
 
 If our brain is a living semantic environment, how will it perform when its being fed by shared dream compositions? What do our dreams have in common? What do the world dreamers share in common? How will it sound like? What kind of feeling will it elicit?
 
-Together with the recent brain activity semantic mappings of natural imagery from UC Berkeley, the dreamers dream report, and the dream narratives crowdsourced from Google+, Google search, and the Internet, we can capture the real-time performance of the dreamer`s moving imagery and soundscape in a precise medical 3D brain scan. The result is an audio-visual web-based installation that reconstructs the story of the person«s dream by visualising the neurons fired on the brain based on the context of the dream with its accompanied synthesized sounds and graphically recreating the dream story scenario. 
+Together with the recent brain activity semantic mappings of natural imagery from UC Berkeley, the dreamers dream report, and the dream narratives crowdsourced from Google+, Google search, and the Internet, we can capture the real-time performance of the dreamer`s moving imagery and soundscape in a precise medical 3D brain scan. The result is an audio-visual web-based installation that reconstructs the story of the personï¿½s dream by visualising the neurons fired on the brain based on the context of the dream with its accompanied synthesized sounds and graphically recreating the dream story scenario. 
 
 
 ### Inspirations
@@ -41,15 +41,14 @@ The concept of dream reality machine in general is no longer science fiction and
 
 Some psychologist concludes that dreams have patterns and is predictable. Based on thousands of data, recent dream content studies have established regularities in dream content. For instance, Calvin Hall, by the time he died in 1985, he had synopses of more than fifty thousand dreams from people of all age groups and nationalities. Randall in his book, "Dreamland: Adventures in the Strange Science of Sleep" accounts that:
 
-"Dream plots were consistent enough that, just by knowing the cast of characters in a dream, Hall could forecast what would happen with surprising accuracy. A dream featuring a man whom the dreamer doesnÕt know in real life, for instance, almost always entails a plot in which the stranger is aggressive. Adults tend to dream of other people they know, while kids usually dream of animals. About three out of every four characters in a manÕs dream will be other men, while women tend to encounter an equal number of males and females. Most dreams take place in the dreamersÕ homes or offices and, if they have to go somewhere, they drive cars or walk there. And not surprisingly, college students dream about sex more often than middle-aged adultsÉ" and so on. Such regularities are broadly consistent with the dream as Virtual Reality machine.
+"Dream plots were consistent enough that, just by knowing the cast of characters in a dream, Hall could forecast what would happen with surprising accuracy. A dream featuring a man whom the dreamer doesnï¿½t know in real life, for instance, almost always entails a plot in which the stranger is aggressive. Adults tend to dream of other people they know, while kids usually dream of animals. About three out of every four characters in a manï¿½s dream will be other men, while women tend to encounter an equal number of males and females. Most dreams take place in the dreamersï¿½ homes or offices and, if they have to go somewhere, they drive cars or walk there. And not surprisingly, college students dream about sex more often than middle-aged adultsï¿½" and so on. Such regularities are broadly consistent with the dream as Virtual Reality machine.
 
 The fact that dreams have patterns helped us realised that it is possible for us to reconstruct a story out of people`s dream report. 
 
 
 Here is our research sketch of the patterns of sleep and its potential salient activation in the brain:
 
---- insert sketched image here-----
-
+![Dreaming Brain Patterns](project_images/neurosprawler_map_sketch.png?raw=true "Dreaming Brain Patterns") 
 
 ### Why do I need to track my sleep and record my dreams?
 
