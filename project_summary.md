@@ -17,6 +17,8 @@ Imagine yourself connected with thousands of dreamers each night. A social netwo
 
 If our brain is a living semantic environment, how will it perform when its being fed by shared dream compositions? What do our dreams have in common? What do the world dreamers share in common? How will it sound like? What kind of feeling will it elicit?
 
+Starting from the dreamer`s shared dream story (can be text or an audio dictation) we will break down the objects and events in your dreams. Your dreams will bring life to a single brain visualising one coherent dream story - the Dreamsprawler.
+
 Together with the recent brain activity semantic mappings of natural imagery from UC Berkeley, the dreamers dream report, and the dream narratives crowdsourced from Google+, Google search, and the Internet, Dreamsprawler will capture the real-time performance of the dreamer`s moving story and soundscape in a precise medical 3D brain scan. The result is an audio-visual web-based installation that reconstructs the story of a dream by visualising the neurons fired on the brain based on the context of the dream with its accompanied synthesized sounds and graphically recreating the dream story scenario. The performance, like the brain are interconnected, not by accident or randomness, but by series of rules and patterns that are meaningfully interacting with each other.
 
 
