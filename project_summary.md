@@ -16,9 +16,9 @@ Jordi Puig, http://github.com/wasawi
 
 If our brain is a living semantic environment, how will it perform when its being fed by shared dream compositions? What do our dreams have in common? What do the world dreamers share in common? How will it sound like? What kind of feeling will it elicit?
 
-Starting from your dream story shared from Google+ or our web repository, our code will break down the objects and events in your dreams. Your dreams will bring life to a single brain visualising one coherent dream story - the Dreamsprawler.
+Starting from the dream story you shared at Google+ or our web repository, our code will break down the objects and events in your dreams. Your dreams will bring life to Dreamsprawler, a single brain visualising one coherent dream story.
 
-Based on the brain activity semantic mappings of natural imagery from UC Berkeley, your dream report, and the dream narratives crowdsourced from Google+, and the Internet, Dreamsprawler will capture your dreaming story and soundscape in a precise medical 3D brain scan. The result is a coherent audio-visual vizualization of the lights and sounds of the neurons fired on the brain while dreaming and graphically recreating the dream story scenario. 
+Based on the brain activity semantic mappings of natural imagery from UC Berkeley, your dream report, and the dream narratives crowdsourced from Google+, and the Internet, Dreamsprawler will capture the world dream story and soundscape in a precise medical 3D brain scan. The result is a coherent vizualization of the lights and sounds of the neurons fired on the brain while dreaming and graphically recreating the dream story scenario. 
 
 
 
