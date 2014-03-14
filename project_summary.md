@@ -42,8 +42,8 @@ NOTE: If your project lives online you can add one or more links here. Make sure
 Current coding progress:
 
 We are currently focusing in two developments:
-	The client appliaction to handle all visualizatoin.
-	The ofxGallant addon to map words to brain space.
+	The client application to handle all visualization.
+	The ofxGallant addon to map parsed words to the brain space.
 
 
 ![Dreamsprawler app](project_images/dreamSprawler_1.png?raw=true "Dreamsprawler app")
