@@ -49,6 +49,7 @@ We are currently focusing in two developments:
 
 
 ![Dreamsprawler app](project_images/dreamSprawler_1.png?raw=true "Dreamsprawler app")
+![Dreamsprawler app](project_images/BrainSketch_2-03.png?raw=true "Dreamsprawler app")
 
 
 NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
