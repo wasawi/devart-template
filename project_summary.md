@@ -18,7 +18,7 @@ If our brain is a living semantic environment, how will it perform when its bein
 
 Starting from the dream story you shared at Google+ or our web repository, our code will break down the objects and events in your dreams. Your dreams will bring life to Dreamsprawler, a single brain visualising one coherent dream story.
 
-Based on the brain activity semantic mappings of natural imagery from UC Berkeley, your dream report, and the dream narratives crowdsourced from Google+, and the Internet, Dreamsprawler will capture the world dream story and soundscape in a precise medical 3D brain scan. The result is a coherent vizualization of the lights and sounds of the neurons fired on the brain while dreaming and graphically recreating the dream story scenario. 
+Based on the scientific brain activity semantic mappings of natural imagery from UC Berkeley, your dream report, and the dream narratives crowdsourced from Google+, and the Internet, Dreamsprawler will capture the world dream story and soundscape in a precise medical 3D brain scan. The result is a coherent vizualization of the lights and sounds of the neurons fired on the brain while dreaming and graphically recreating the dream story scenario. 
 
 
 
