@@ -1,24 +1,23 @@
 {
     "technologies": {
         "apis": [
-            "Web Speech",
+            "Oauth 2.0",
             "Google Plus"
         ],
-        
+         "platforms": [
+            "MacOs",
+            "Linux",
+            "Windows"
+        ],
         "toolkits": [
-            "Node.js",
-            "Three.js",
-            "Javascript",
-            "OpenFrameworks",
-            "Webgl"
+            "OpenFrameworks"
         ]
     },
     "themes": [
         "Dreams",
-        "Brain-Computer Visualization",
+        "Brain Visualization",
          "Crowdsourcing",
-         "Nueroscience"
+         "Nueroscience",
          "Storytelling"
-         
     ]
 }
