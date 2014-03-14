@@ -14,12 +14,10 @@ Jordi Puig, http://github.com/wasawi http://www.wasawi.com
 ## Description
 
 
-Dreamsprawler aims to map people's dreams on a brain. 
-It could be rephrased as "a global map of people's dreams".
-Users of the application will be able to descrive their dreams using text, images, videos.. all this data will be uploaded to Google + under #Dreamsprawler hashtag. Our application will use this data to allow users to revisit other people's dreams.
+Dreamsprawler aims to map people's dreams on a brain. It could be rephrased as "a global map of people's dreams".
+Users of the application will be able to describe their dreams using text, images, videos. All this data will be uploaded to Google+ under #Dreamsprawler hashtag. Our application will use this data to allow users to revisit other people's dreams.
 
-To do so, the user will be able to navigate a brain, and that's were all the dreams will be placed. Searching for keywords will display their locations in the brain space. The mapping between words and brain voxels will be done by using Gallant correlations (www.gallantlab.org).
-
+To do so, the user will be able to navigate a brain, and that's where all the dreams will be placed. Searching for keywords will display their locations in the brain space. Dreamsprawler will also rank the world dream and display top dream text and generated imagery to form a coherent dream story. The mapping between words and brain neural responses will be done by using Gallant correlations (www.gallantlab.org).
 
 ### Inspirations
 
