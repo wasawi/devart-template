@@ -44,6 +44,7 @@ Current coding progress:
 ---Insert Jordi`s brain program image here
 
 
+![Dreamsprawler app](project_images/dreamSprawler_1.png?raw=true "Dreamsprawler app")
 
 
 NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
