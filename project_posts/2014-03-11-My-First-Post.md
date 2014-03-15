@@ -29,7 +29,7 @@ It is amazing to visualize our dreams, and see the coherent dreams of others. To
 
 ### What can you share in our dream repository or at Google+?
 
-You can dictate your dreams, write the story of your dream, write your feelings, and share it to our repository. You can create a username in our repository, it can all be anonymous. You can share your dreams at Google+.The whole suggested meta-data or content structure to help us visualise your dreams will be posted to you soon.
+You can dictate your dreams, write the story of your dream, write your feelings, and share it to our repository. You can share your dreams at Google+ with the suggested hashtag and content structure to help us visualise your dreams.
 
 
 For the second phase of the our project, you can share us your EEG readings or hook your actigraph recordings to our web repository
@@ -37,10 +37,7 @@ For the second phase of the our project, you can share us your EEG readings or h
 
 ### Where can I see my dream story and the visual dreams of others?
 
-We want to create a web-based repository where you can share your dream story through your mobile or computer as soon as you wake up. In our repository, you will see an ecosystem of dreamers mapped in a single brain creating a coherent dream story and brain activations. We also want to map your personal story overtime. It`s a live performance by hundreds of dreams interpreted from the database and social media and hopefully hundreds more dreams from you and other dream sharers.
-
---- insert image---
-
+We want to create an application where you can share your dream story through your computer as soon as you wake up. In our application, you will see an ecosystem of dreamers mapped in a single brain creating a coherent dream story and brain activations. We also want to map your personal story overtime. It`s a live performance by hundreds of dreams interpreted from the database of social media and hopefully hundreds more dreams from you and other dream sharers.
 
 
 ### What are future applications of Dreamsprawler?
