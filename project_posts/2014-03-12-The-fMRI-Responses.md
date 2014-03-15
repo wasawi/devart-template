@@ -6,7 +6,6 @@ Below is a sketch studying how we can use the data from UC Berkeley in Dreamspra
 
 
 
-
 ![fMRI BOLD Responses](../project_images/Data_UCBerkeley.png?raw=true "fMRI BOLD Responses")
 
 
