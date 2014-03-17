@@ -20,6 +20,6 @@ pip install -r requirements.txt
 
 if you succeed you must see something like this after completing the steps:
 
-![connected](connected.jpg?raw=true "connected")
+![connected](connected.png?raw=true "connected")
 
 --------------------------------------------------------------
