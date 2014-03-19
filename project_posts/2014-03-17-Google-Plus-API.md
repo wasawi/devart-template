@@ -5,9 +5,19 @@ The installation procedure for the Google + API various from one machine to anot
 
 
 
-* Step 1: We create a Google APIs Console project, authentication access with OAuth 2.0 which gives us the client ID and client secret following the steps in this link:
+* Step 1: We generate an API key through Google API Console which give us the authentication access with OAuth 2.0 - the client ID and client secret. 
 
- https://developers.google.com/+/quickstart/python
+Point your browser to code.google.com/apis/console/ and it will take you to the login page of the API Console. 
+
+In the list of services, find the Google+ API make sure that it is turned on:
+
+
+![G+ connection](../project_images/Gplus_API_on.png?raw=true "G+ connection")
+
+Clicking the API Access will allow you to create an OAuth 2.0 client ID:
+
+![G+ OAuth](../project_images/Gplus_API_OAuth.png?raw=true "G+ OAuth")
+
 
 * Step 2: We installed Python using Homebrew:
 
@@ -52,8 +62,6 @@ The installation procedure for the Google + API various from one machine to anot
  http://localhost:4567
 
  You should see a similar page confirmation in your browser:
-
-
 
 
 
