@@ -165,7 +165,7 @@ To get the query of the hashtag #dreamsprawler, we can then use a similar reques
 GET https://www.googleapis.com/plus/v1/activities?query=%23Dreamsprawler&key={YOUR_API_KEY}
 ```
 
-This retrieves list of data that can be extracted at Google+ (Google+ Activities Search Results):
+This retrieves list of data that can be extracted at Google+ (activities search results):
 
 ```
 { "kind": "plus#activityFeed",
