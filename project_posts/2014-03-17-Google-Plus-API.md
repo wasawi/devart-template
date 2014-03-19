@@ -123,7 +123,6 @@ import sys
 from oauth2client import client
 from apiclient import sample_tools
 
-
 def main(argv):
   # Authenticate and construct service.
   service, flags = sample_tools.init(
