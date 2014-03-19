@@ -96,33 +96,33 @@ To retrieve what potentially can be extracted at Googleplus:
   
 {
  "kind": "plus#activityFeed",
- "etag": "\"7zDxHg5s5mqDKJRPJZIoOsdfecE/xFhdNHoyZXXzOtf5MKjdtX3CPy4\"",
- "nextPageToken": "Ci4Iqf03Eia-hAu-hAuM26cBtbC3Abmu4gG5ruIBhOL3AdnghAL1s68C98uNAxgDEOyLp5kFGOyLp5kFIgA",
+ "etag": "\"7zDxHg5s..............\"",
+ "nextPageToken": "Ci4Iq............",
  "selfLink": "https://content.googleapis.com/plus/v1/activities?query=%23Dreamsprawler&key=AIzaSyCFj15TpkchL4OUhLD1Q2zgxQnMb7v3XaM",
  "title": "Google+ Activities Search Results",
  "updated": "2014-03-19T16:29:32.707Z",
  "items": [
   {
    "kind": "plus#activity",
-   "etag": "\"7zDxHg5s5mqDKJRPJZIoOsdfecE/23AjNuQ1brojx-mWDHCJOvd4lfI\"",
+   "etag": "\"7zDxHg...............\"",
    "title": "#Dreamsprawler  In my dream, I was quite scared that the skin of my face is detached and a friend of...",
    "published": "2014-03-19T16:29:32.707Z",
    "updated": "2014-03-19T16:29:32.707Z",
-   "id": "z12gc1rbboyyxbynj23titnx3vv0ztq5s04",
+   "id": "z12gc.....................",
    "url": "https://plus.google.com/108149267445386865625/posts/Kj8q5EDmZDZ",
    "actor": {
-    "id": "108149267445386865625",
+    "id": "10.......................",
     "displayName": "D Sprawler",
     "url": "https://plus.google.com/108149267445386865625",
     "image": {
-     "url": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50"
+     "url": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/..........."
     }
    },
    "verb": "post",
    "object": {
     "objectType": "note",
     "content": " <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23Dreamsprawler\">#Dreamsprawler</a>  In my dream, I was quite scared that the skin of my face is detached and a friend of mine helped me stitch it back. \ufeff",
-    "url": "https://plus.google.com/108149267445386865625/posts/Kj8q5EDmZDZ",
+    "url": "https://plus.google.com/1081492674.........",
     "replies": {
      "totalItems": 0,
      "selfLink": "https://content.googleapis.com/plus/v1/activities/z12gc1rbboyyxbynj23titnx3vv0ztq5s04/comments"
