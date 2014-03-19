@@ -1,11 +1,11 @@
-## Google + Documentation and Retrieval Test with Python
+## Google+ API content retrieval test
 
-There is no straightforward implementation of Google+ API available, we have to use Python Scripting. 
+There is no straightforward implementation of Google+ API for fetching data, we decided to use Python Scripting. 
+
 The installation procedure for the Google + API various from one machine to another depending on the package manager that you are using. But, here is our steps:
 
 
-
-* Step 1: We generate an API key through Google API Console which give us the authentication access with OAuth 2.0 - the client ID and client secret. 
+* Step 1: We generated an API key through Google API Console which give us the authentication access with OAuth 2.0 - the client ID and client secret. 
 
 Point your browser to code.google.com/apis/console/ and it will take you to the login page of the API Console. 
 
@@ -24,15 +24,24 @@ Clicking the API Access will allow you to create an OAuth 2.0 client ID:
 ```
  $ brew install python
 ```
- Google + API requires Pip. Pip comes with the Homebrew installation but if you use anothe package manager:
-
- Download pip at, http://pip.readthedocs.org/en/latest/installing.html.
- 
- Create a file named get-pip.py with its contents and then run:
+ Google + API requires Pip. Pip comes with the Homebrew installation but if you use another package manager, download pip at, http://pip.readthedocs.org/en/latest/installing.html. Create a file named get-pip.py with its contents and then run:
 
 ```
  $ sudo python get-pip.py
 ```
+ 
+Setuptools can be updated via Pip, without having to re-brew Python:
+
+```
+ $ pip install --upgrade setuptools
+```
+Similarly, Pip can be used to upgrade itself via:
+
+```
+ $ pip install --upgrade pip
+```
+
+ 
 * Step 3: Set up the Python quick-start app
 
  The terminal commands below clones the Google+ application repository using git and decompresses it to your harddrive.
@@ -66,4 +75,82 @@ Clicking the API Access will allow you to create an OAuth 2.0 client ID:
 
 
 ![G+ connection confirmation](../project_images/Gplus_connected.png?raw=true "G+ connection confirmation")
+
+
+### Retrieving a list of user`s post
+
+
+To get the query of #dreamsprawler we can then use a similar request:
+
+```
+GET https://www.googleapis.com/plus/v1/activities?query=%23Dreamsprawler&key={YOUR_API_KEY}
+
+Authorization:  Bearer {authorization ID}
+
+X-JavaScript-User-Agent:  Google APIs Explorer
+```
+
+To retrieve what potentially can be extracted at Googleplus:
+
+```
+  
+{
+ "kind": "plus#activityFeed",
+ "etag": "\"7zDxHg5s5mqDKJRPJZIoOsdfecE/xFhdNHoyZXXzOtf5MKjdtX3CPy4\"",
+ "nextPageToken": "Ci4Iqf03Eia-hAu-hAuM26cBtbC3Abmu4gG5ruIBhOL3AdnghAL1s68C98uNAxgDEOyLp5kFGOyLp5kFIgA",
+ "selfLink": "https://content.googleapis.com/plus/v1/activities?query=%23Dreamsprawler&key=AIzaSyCFj15TpkchL4OUhLD1Q2zgxQnMb7v3XaM",
+ "title": "Google+ Activities Search Results",
+ "updated": "2014-03-19T16:29:32.707Z",
+ "items": [
+  {
+   "kind": "plus#activity",
+   "etag": "\"7zDxHg5s5mqDKJRPJZIoOsdfecE/23AjNuQ1brojx-mWDHCJOvd4lfI\"",
+   "title": "#Dreamsprawler  In my dream, I was quite scared that the skin of my face is detached and a friend of...",
+   "published": "2014-03-19T16:29:32.707Z",
+   "updated": "2014-03-19T16:29:32.707Z",
+   "id": "z12gc1rbboyyxbynj23titnx3vv0ztq5s04",
+   "url": "https://plus.google.com/108149267445386865625/posts/Kj8q5EDmZDZ",
+   "actor": {
+    "id": "108149267445386865625",
+    "displayName": "D Sprawler",
+    "url": "https://plus.google.com/108149267445386865625",
+    "image": {
+     "url": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50"
+    }
+   },
+   "verb": "post",
+   "object": {
+    "objectType": "note",
+    "content": " <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23Dreamsprawler\">#Dreamsprawler</a>  In my dream, I was quite scared that the skin of my face is detached and a friend of mine helped me stitch it back. \ufeff",
+    "url": "https://plus.google.com/108149267445386865625/posts/Kj8q5EDmZDZ",
+    "replies": {
+     "totalItems": 0,
+     "selfLink": "https://content.googleapis.com/plus/v1/activities/z12gc1rbboyyxbynj23titnx3vv0ztq5s04/comments"
+    },
+    "plusoners": {
+     "totalItems": 0,
+     "selfLink": "https://content.googleapis.com/plus/v1/activities/z12gc1rbboyyxbynj23titnx3vv0ztq5s04/people/plusoners"
+    },
+    "resharers": {
+     "totalItems": 0,
+     "selfLink": "https://content.googleapis.com/plus/v1/activities/z12gc1rbboyyxbynj23titnx3vv0ztq5s04/people/resharers"
+    }
+   },
+   "provider": {
+    "title": "Google+"
+   },
+   "access": {
+    "kind": "plus#acl",
+    "description": "Public",
+    "items": [
+     {
+      "type": "public"
+     }
+    ]
+   }
+  }
+ ]
+}
+```
+
 
