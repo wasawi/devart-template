@@ -1,8 +1,35 @@
 ## Technology Architecture
 
 
-Below is a diagram describing the flow of information:
+## Google + Documentation and Retrieval Test with Python
 
-<img src="https://docs.google.com/drawings/d/1bihc5fLX7nLSxHqRrgZz9CodR5Uqk4YVInev_7imNFA/pub?w=960&amp;h=720">
+There is no straightforward implementation of Google+ API available, we have to use Python Scripting. 
+The installation procedure for the Google + API various from one machine to another depending on the package manager that you are using. But, here is our steps:
 
 
+
+Step 1: We create a Google APIs Console project, authentication access with OAuth 2.0 which gives us the client ID, etc following this step:
+https://developers.google.com/+/quickstart/python
+
+Step 2: We installed Python using Homebrew:
+
+```
+ $ brew install python
+```
+Google + API requires Pip. Pip comes with the Homebrew installation but if you use anothe package manager:
+
+Download pip at, http://pip.readthedocs.org/en/latest/installing.html.
+Create a file named get-pip.py with its contents and then run:
+``
+ $ sudo python get-pip.py
+
+```
+Step 3: Set up the Python quick-start app
+
+The terminal commands below clones the Google+ application repository using git and decompresses it to your harddrive.
+```
+ $ git clone https://github.com/googleplus/gplus-quickstart-python.git
+ $ wget https://github.com/googleplus/gplus-quickstart-python/archive/master.zip
+ $ unzip gplus-quickstart-python-master.zip
+
+```
