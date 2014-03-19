@@ -17,6 +17,7 @@ Step 2: We installed Python using Homebrew:
  Google + API requires Pip. Pip comes with the Homebrew installation but if you use anothe package manager:
 
  Download pip at, http://pip.readthedocs.org/en/latest/installing.html.
+ 
  Create a file named get-pip.py with its contents and then run:
 
 ```
@@ -51,6 +52,8 @@ Step 4: Run the Python quick-start app:
  http://localhost:4567
 
  You should see a similar page confirmation in your browser:
+
+
 
 
 
