@@ -73,7 +73,6 @@ Similarly, Pip can be used to upgrade itself via:
  You should see a similar page confirmation in your browser:
 
 
-
 ![G+ connection confirmation](../project_images/Gplus_connected.png?raw=true "G+ connection confirmation")
 
 
@@ -85,11 +84,11 @@ Run the python application (see code below) in the terminal (assuming that the c
 
 Running this application will also open a web browser asking for user authentication:
 
-![Users post authentication](../project_images/Users_post_authentication.png?raw=true "Users post authentication")
+![Users post authentication](../project_images/Users_post.png?raw=true "Users post authentication")
 
 ```
-# WAM: This can be obtained at the Google+ API website after going deeper into the links, but for 
-# practicality and easy-access, we store it here. 
+# WAM: This can be obtained at the Google+ API website, deeper into the links, but for 
+# practicality and easy access, we are storing it here. 
 # Copy-paste this code and save it with .py extension. Run it with an edited client_secrets.json on 
 # the same directory
 #
