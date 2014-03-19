@@ -20,7 +20,8 @@ Google + API requires Pip. Pip comes with the Homebrew installation but if you u
 
 Download pip at, http://pip.readthedocs.org/en/latest/installing.html.
 Create a file named get-pip.py with its contents and then run:
-``
+
+```
  $ sudo python get-pip.py
 
 ```
