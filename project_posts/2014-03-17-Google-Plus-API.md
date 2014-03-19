@@ -80,77 +80,57 @@ Similarly, Pip can be used to upgrade itself via:
 ### Retrieving a list of user`s post
 
 
-To get the query of #dreamsprawler we can then use a similar request:
+To get the query of the hashtag #dreamsprawler, we can then use a similar request command:
 
 ```
 GET https://www.googleapis.com/plus/v1/activities?query=%23Dreamsprawler&key={YOUR_API_KEY}
-
-Authorization:  Bearer {authorization ID}
-
-X-JavaScript-User-Agent:  Google APIs Explorer
 ```
 
-To retrieve what potentially can be extracted at Googleplus:
+This retrieves list of data that can be extracted at Google+ (Google+ Activities Search Results):
 
 ```
-  
-{
- "kind": "plus#activityFeed",
- "etag": "\"7zDxHg5s..............\"",
+{ "kind": "plus#activityFeed",
+ "etag": "\"7zD...................\"",
  "nextPageToken": "Ci4Iq............",
- "selfLink": "https://content.googleapis.com/plus/v1/activities?query=%23Dreamsprawler&key=AIzaSyCFj15TpkchL4OUhLD1Q2zgxQnMb7v3XaM",
+ "selfLink": "https://content.googleapis.com/plus/v1/activities?query=%23Dreamsprawler&key=..............",
  "title": "Google+ Activities Search Results",
  "updated": "2014-03-19T16:29:32.707Z",
- "items": [
-  {
+ "items": [ {
    "kind": "plus#activity",
    "etag": "\"7zDxHg...............\"",
    "title": "#Dreamsprawler  In my dream, I was quite scared that the skin of my face is detached and a friend of...",
    "published": "2014-03-19T16:29:32.707Z",
    "updated": "2014-03-19T16:29:32.707Z",
    "id": "z12gc.....................",
-   "url": "https://plus.google.com/108149267445386865625/posts/Kj8q5EDmZDZ",
+   "url": "https://plus.google.com/110..........",
    "actor": {
     "id": "10.......................",
     "displayName": "D Sprawler",
-    "url": "https://plus.google.com/108149267445386865625",
+    "url": "https://plus.google.com/108.........",
     "image": {
-     "url": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/..........."
-    }
-   },
+     "url": "https://lh3.googleusercontent.com/.............."} },
    "verb": "post",
    "object": {
     "objectType": "note",
     "content": " <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23Dreamsprawler\">#Dreamsprawler</a>  In my dream, I was quite scared that the skin of my face is detached and a friend of mine helped me stitch it back. \ufeff",
-    "url": "https://plus.google.com/1081492674.........",
+    "url": "https://plus.google.com/.........................",
     "replies": {
      "totalItems": 0,
-     "selfLink": "https://content.googleapis.com/plus/v1/activities/z12gc1rbboyyxbynj23titnx3vv0ztq5s04/comments"
-    },
+     "selfLink": "https://content.googleapis.com/plus/v1/activities/...../comments" },
     "plusoners": {
      "totalItems": 0,
-     "selfLink": "https://content.googleapis.com/plus/v1/activities/z12gc1rbboyyxbynj23titnx3vv0ztq5s04/people/plusoners"
-    },
+     "selfLink": "https://content.googleapis.com/plus/v1/activities/...../people/plusoners" },
     "resharers": {
      "totalItems": 0,
-     "selfLink": "https://content.googleapis.com/plus/v1/activities/z12gc1rbboyyxbynj23titnx3vv0ztq5s04/people/resharers"
-    }
-   },
+     "selfLink": "https://content.googleapis.com/plus/v1/activities/......../people/resharers" } },
    "provider": {
-    "title": "Google+"
-   },
+    "title": "Google+" },
    "access": {
     "kind": "plus#acl",
     "description": "Public",
-    "items": [
-     {
+    "items": [ {
       "type": "public"
-     }
-    ]
-   }
-  }
- ]
-}
+     } ] } } ] }
 ```
 
 
