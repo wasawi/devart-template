@@ -1,4 +1,4 @@
-## Google+ API content retrieval test
+## Google+ API user`s post and activities retrieval test
 
 There is no straightforward implementation of Google+ API for fetching data, we decided to use Python Scripting. 
 
