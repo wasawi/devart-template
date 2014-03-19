@@ -155,8 +155,6 @@ def main(argv):
 
 if __name__ == '__main__':
   main(sys.argv)
-
-
 ```
 To get the query of the hashtag #dreamsprawler, we can then use a similar request command:
 
