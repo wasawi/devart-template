@@ -8,7 +8,7 @@
 ## Authors
 Wendy Ann Mansilla 
 
-Jordi Puig, http://github.com/wasawi http://www.wasawi.com
+Jordi Puig, http://github.com/wasawi, http://www.wasawi.com
 
 
 ## Description
