@@ -86,6 +86,10 @@ Running this application will also open a web browser asking for user authentica
 
 ![Users post authentication](../project_images/Users_post.png?raw=true "Users post authentication")
 
+After accepting, you should see this page confirmation:
+
+![Users post authentication](../project_images/Users_post_authentication.png?raw=true "Users post authentication")
+
 ```
 # WAM: This can be obtained at the Google+ API website, deeper into the links, but for 
 # practicality and easy access, we are storing it here. 
