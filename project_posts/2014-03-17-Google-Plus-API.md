@@ -77,9 +77,87 @@ Similarly, Pip can be used to upgrade itself via:
 ![G+ connection confirmation](../project_images/Gplus_connected.png?raw=true "G+ connection confirmation")
 
 
-### Retrieving a list of user`s post
+### This is a simple command-line sample for the Google+ API that retrieves the list of the user's posts
+
+Run the python application (see code below) in the terminal (assuming that the client_secrets.json file was edited and supplied with G+ client ID and client secret):
+
+![Users post bash](../project_images/Users_post_bash.png?raw=true "Users post bash")
+
+Running this application will also open a web browser asking for user authentication:
+
+![Users post authentication](../project_images/Users_post_authentication.png?raw=true "Users post authentication")
+
+```
+# WAM: This can be obtained at the Google+ API website after going deeper into the links, but for 
+# practicality and easy-access, we store it here. 
+# Copy-paste this code and save it with .py extension. Run it with an edited client_secrets.json on 
+# the same directory
+#
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# Copyright (C) 2013 Google Inc.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+"""Simple command-line sample for the Google+ API.
+
+Command-line application that retrieves the list of the user's posts."""
+
+__author__ = 'jcgregorio@google.com (Joe Gregorio)'
+
+import sys
+
+from oauth2client import client
+from apiclient import sample_tools
 
 
+def main(argv):
+  # Authenticate and construct service.
+  service, flags = sample_tools.init(
+      argv, 'plus', 'v1', __doc__, __file__,
+      scope='https://www.googleapis.com/auth/plus.me')
+
+  try:
+    person = service.people().get(userId='me').execute()
+
+    print 'Got your ID: %s' % person['displayName']
+    print
+    print '%-40s -> %s' % ('[Activitity ID]', '[Title]')
+    print
+
+    # Don't execute the request until we reach the paging loop below.
+    request = service.activities().list(
+        userId=person['id'], collection='public')
+
+    # Loop over every activity and print the ID and a short snippet of content.
+    while request is not None:
+      activities_doc = request.execute()
+      for item in activities_doc.get('items', []):
+        print '%-040s -> %s' % (item['id'], item ['title'])
+
+    # WAM removed: item['object']['content'][:30]
+
+      request = service.activities().list_next(request, activities_doc)
+
+  except client.AccessTokenRefreshError:
+    print ('The credentials have been revoked or expired, please re-run'
+      'the application to re-authorize.')
+
+if __name__ == '__main__':
+  main(sys.argv)
+
+
+```
 To get the query of the hashtag #dreamsprawler, we can then use a similar request command:
 
 ```
@@ -103,34 +181,17 @@ This retrieves list of data that can be extracted at Google+ (Google+ Activities
    "updated": "2014-03-19T16:29:32.707Z",
    "id": "z12gc.....................",
    "url": "https://plus.google.com/110..........",
-   "actor": {
-    "id": "10.......................",
-    "displayName": "D Sprawler",
-    "url": "https://plus.google.com/108.........",
-    "image": {
-     "url": "https://lh3.googleusercontent.com/.............."} },
-   "verb": "post",
-   "object": {
-    "objectType": "note",
-    "content": " <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23Dreamsprawler\">#Dreamsprawler</a>  In my dream, I was quite scared that the skin of my face is detached and a friend of mine helped me stitch it back. \ufeff",
-    "url": "https://plus.google.com/.........................",
-    "replies": {
-     "totalItems": 0,
-     "selfLink": "https://content.googleapis.com/plus/v1/activities/...../comments" },
-    "plusoners": {
-     "totalItems": 0,
-     "selfLink": "https://content.googleapis.com/plus/v1/activities/...../people/plusoners" },
-    "resharers": {
-     "totalItems": 0,
-     "selfLink": "https://content.googleapis.com/plus/v1/activities/......../people/resharers" } },
-   "provider": {
-    "title": "Google+" },
-   "access": {
-    "kind": "plus#acl",
-    "description": "Public",
-    "items": [ {
-      "type": "public"
-     } ] } } ] }
+   "actor": { "id": "10................", "displayName": "D Sprawler","url": "https://plus.google.com/108.........",
+    "image": { "url": "https://lh3.googleusercontent.com/.............."} },
+    "verb": "post",
+   "object": { "objectType": "note", "content": " <a rel=\"nofollow\" class=\"ot-hashtag\" href=\"https://plus.google.com/s/%23Dreamsprawler\">#Dreamsprawler</a>  In my dream, I was quite scared that the skin of my face is detached and a friend of mine helped me stitch it back. \ufeff", "url": "https://plus.google.com/.........................",
+    "replies": {"totalItems": 0, "selfLink": "https://content.googleapis.com/plus/v1/activities/...../comments" },
+    "plusoners": { "totalItems": 0, "selfLink": "https://content.googleapis.com/plus/v1/activities/...../people/plusoners" },
+    "resharers": { "totalItems": 0, "selfLink": "https://content.googleapis.com/plus/v1/activities/......../people/resharers" } },
+   "provider": { "title": "Google+" }, 
+   "access": {"kind": "plus#acl", "description": "Public", 
+   "items": [ { "type": "public" } ] 
+   } } ] }
 ```
 
 
