@@ -91,10 +91,10 @@ After accepting, you should see this page confirmation:
 ![Users post authentication](../project_images/Users_post_authentication.png?raw=true "Users post authentication")
 
 ```
-# WAM: This can be obtained at the Google+ API website, deeper into the links, but for 
+# WAM: This is a python code and can be obtained at the Google+ API client website or at github, but for 
 # practicality and easy access, we are storing it here. 
 # Copy-paste this code and save it with .py extension. Run it with an edited client_secrets.json on 
-# the same directory
+# the same directory.
 #
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
