@@ -1,11 +1,11 @@
 ## Google+ API user`s post and activities retrieval test
 
-There is no straightforward implementation of Google+ API for fetching data, we decided to use Python Scripting. 
+There is no real straightforward way to test Google+ API for fetching data, we have to go over several examples. For this project, we decided to use python scripting to later on integrate it with OpenFrameworks. 
 
 The installation procedure for the Google + API various from one machine to another depending on the package manager that you are using. But, here is our steps:
 
 
-* Step 1: We generated an API key through Google API Console which give us the authentication access with OAuth 2.0 - the client ID and client secret. 
+* Step 1: We generated an API key through Google API Console which gives us the authentication access with OAuth 2.0 - the client ID and client secret. 
 
 Point your browser to code.google.com/apis/console/ and it will take you to the login page of the API Console. 
 
@@ -24,7 +24,7 @@ Clicking the API Access will allow you to create an OAuth 2.0 client ID:
 ```
  $ brew install python
 ```
- Google + API requires Pip. Pip comes with the Homebrew installation but if you use another package manager, download pip at, http://pip.readthedocs.org/en/latest/installing.html. Create a file named get-pip.py with its contents and then run:
+ Google + API requires Pip. Pip comes with the Homebrew installation, but if you are using another package manager, download pip at, http://pip.readthedocs.org/en/latest/installing.html. Create a file named get-pip.py with its contents, and then run:
 
 ```
  $ sudo python get-pip.py
@@ -159,7 +159,7 @@ def main(argv):
 if __name__ == '__main__':
   main(sys.argv)
 ```
-To get the query of the hashtag #dreamsprawler, we can then use a similar request command:
+To get the query of the hashtag #dreamsprawler, we can then use a similar request command as:
 
 ```
 GET https://www.googleapis.com/plus/v1/activities?query=%23Dreamsprawler&key={YOUR_API_KEY}
