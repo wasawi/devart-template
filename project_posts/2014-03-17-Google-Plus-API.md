@@ -78,7 +78,7 @@ Similarly, Pip can be used to upgrade itself via:
 
 ### This is a simple command-line sample for the Google+ API that retrieves the list of the user's posts
 
-Run the python application (see code below) in the terminal (assuming that the client_secrets.json file was edited and supplied with G+ client ID and client secret):
+assuming that the client_secrets.json file was edited and supplied with G+ client ID and client secret, run the python application (see code below) in the terminal:
 
 ![Users post bash](../project_images/Users_post_bash.png?raw=true "Users post bash")
 
@@ -93,7 +93,7 @@ After accepting, you should see this page confirmation:
 ```
 # WAM: This is a python code and can be obtained at the Google+ API client website or at github, but for 
 # practicality and easy access, we are storing it here. 
-# Copy-paste this code and save it with .py extension. Run it with an edited client_secrets.json on 
+# Copy-paste this code and save it with a .py extension. Run it with an edited client_secrets.json on 
 # the same directory.
 #
 # !/usr/bin/env python
