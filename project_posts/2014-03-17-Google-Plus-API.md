@@ -5,11 +5,11 @@ The installation procedure for the Google + API various from one machine to anot
 
 
 
-Step 1: We create a Google APIs Console project, authentication access with OAuth 2.0 which gives us the client ID and client secret following the steps in this link:
+* Step 1: We create a Google APIs Console project, authentication access with OAuth 2.0 which gives us the client ID and client secret following the steps in this link:
 
  https://developers.google.com/+/quickstart/python
 
-Step 2: We installed Python using Homebrew:
+* Step 2: We installed Python using Homebrew:
 
 ```
  $ brew install python
@@ -23,7 +23,7 @@ Step 2: We installed Python using Homebrew:
 ```
  $ sudo python get-pip.py
 ```
-Step 3: Set up the Python quick-start app
+* Step 3: Set up the Python quick-start app
 
  The terminal commands below clones the Google+ application repository using git and decompresses it to your harddrive.
 ```
@@ -41,7 +41,7 @@ Step 3: Set up the Python quick-start app
 
  Go to your clone G+ application repository and edit client_secrets.json, and replace YOUR_CLIENT_ID and YOUR_CLIENT_SECRET with the values that you generated in Step 1.
 
-Step 4: Run the Python quick-start app:
+* Step 4: Run the Python quick-start app:
 
 ```
  $ python signin.py
