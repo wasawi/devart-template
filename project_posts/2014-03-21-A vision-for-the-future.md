@@ -1,16 +1,19 @@
 ## Current challenges:
 
 How to encourage users to upload and share data from:
-	EEG or other sources.
+
+	• EEG or other sources.
 	videos
 
 
 How to deal with privacy issues? 
-	probably using Google's systems.
-	We need to let the user's anonimize their posts (if they want).
+	
+	• probably using Google's systems.
+	• We need to let the user's anonimize their posts (if they want).
 
 How to combine different sorts of visualizations?
-	it wold be cool to see dreams by:
+	
+	•It wold be cool to see dreams by:
 		world location
 		by date of creation
 		by age of user
