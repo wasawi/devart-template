@@ -2,11 +2,10 @@
     "technologies": {
         "apis": [
             "Oauth 2.0",
-            "Google Plus"
+            "Google Plus API"
         ],
          "platforms": [
             "MacOs",
-            "Linux",
             "Windows"
         ],
         "toolkits": [
