@@ -25,16 +25,47 @@ What Gallant Lab does is to ask subjects to watch hours of movies while inside a
 
 
 
-![fMRI Scan](../project_images/FMRI_scan_during_working_memory_tasks.png?raw=true "fMRI Scan")
+![fMRI Scan](../project_images/FMRI_scan_during_working_memory_tasks.jpg?raw=true "fMRI Scan")
 
 Credit: http://www.frontiersin.org/Neurotrauma/10.3389/fneur.2013.00016/full, Via: Wikimedia Commons
 
 
-
-![fMRI V1 Voxels](../project_images/Gallant_data_python?raw=true "fMRI V1 Voxels")
-
-![fMRI V1 Voxels](../project_images/Gallant_data_print_V1_voxels?raw=true "fMRI V1 Voxels")
+Peak BOLD responses to each of the 1,750 training and 120 validation images were estimated
+from the preprocessed data. Gallant Lab provide these estimated responses in their file. The file is stored in matlab version 7.3 .mat file format, which is equivalent to hf5 format, and can be read directly into numpy/python using the PyTables library.
 
 
 
+![fMRI V1 Voxels](../project_images/Gallant_data_python.png?raw=true "fMRI V1 Voxels")
+
+
+The responses for each voxel have been z-scored, so for a given voxel the units of each
+"response" are standard deviations from that voxel's mean response. Also, of the 73,728
+(64X64X18) voxels recorded for each scan, only ~25,000 voxels in or near the cortex were
+selected for each subject. ROIs for each subject were determined based on separate localizer
+scans (not included). See Kay et al (2008) for details of BOLD response estimation, voxel
+selection, and ROI definition.
+
+The following code is how we loaded the code into python 
+# To get all V1 voxel responses in the training data set:
+
+´´´
+import tables,numpy
+f = tables.openFile('EstimatedResponses.mat')
+f.listNodes # Show all variables available
+Dat = f.getNode('/dataTrnS1')[:]
+ROI = f.getNode('/roiS1')[:].flatten()
+V1idx = numpy.nonzero(ROI==1)[0]
+V1resp = Dat[:,V1idx]
+print V1resp
+´´´
+
+![fMRI V1 Voxels](../project_images/Gallant_data_print_V1_voxels.png?raw=true "fMRI V1 Voxels")
+
+
+-- References --
+Kay, K. N., Naselaris, T., Prenger, R. J., & Gallant, J. L. (2008). Identifying natural images
+from human brain activity. Nature, 452(7185), 352-355.
+
+Naselaris, T., Prenger, R. J., Kay, K. N., Oliver, M., & Gallant, J. L. (2009). Bayesian
+reconstruction of natural images from human brain activity. Neuron, 63(6), 902-915.
 
