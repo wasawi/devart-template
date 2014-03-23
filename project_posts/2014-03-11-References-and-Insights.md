@@ -37,3 +37,5 @@ http://selfiecity.net/
 A journal explaining the scientific concept of Candy is published at:
 
 Mansilla, Wendy Ann; Perkis, Andrew; Ebrahimi, Touradj. (2013) Exploring the Impact of Food Craving and Pleasure Technologies on Aesthetic Experiences in Digital Media. International Journal of Human-Computer Interaction. http://dx.doi.org/10.1080/10447318.2013.846791
+
+Mansilla, Wendy Ann; Puig, Jordi; Perkis, Andrew; Ebrahimi, Touradj. (2012) When Cheesecake Craving Unplugs the Pleasure Button: Understanding Aesthetics and Quality of Experience in a Computer Generated Graphics. SIGGRAPH 2012.
