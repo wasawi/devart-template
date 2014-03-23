@@ -81,41 +81,53 @@ We have done a trick here to simulate a tab. Since ofxUI is not offering tabs we
 Here we are handling all communication with the google API. for now we are using a twitter reader for the sake of testing. But this class will handle the Google API calls in the future.
 
 **External code**
+
 Using most of the Openframeworks goodies.
 We are relying in a library which is supported by a large community.
 
 **ofEasyCam**
+
 Moves the camera around the brain
 
 **ofxVolumetrics**
+
 Creates the render the brain as a volume and cut it at any level
 It has been modified to allow cuts at any angle
 
 **ofxSuperlog**
+
 Keep track of events for a good debugging
 
 **ofxUI**
+
 Renders the GUI
 
 **ofxCameraSaveLoad**
+
 Saves and loads the current state of the camera
 
 **ofxJSON**
+
 Responsible for parsing the responses from Google API
 
 **ofxXmlSettings**
+
 Saves UI settings
 
 **ofxOauth**
+
 Communicates with Twitter (in the future if will be replaced by Google)
 
 **ofxTwitter**
+
 Communicates with Twitter (in the future if will be replaced by Google)
 
 **ofxFTGL**
+
 Render fonts from any language
 
 **ofxRay**
+
 Select points in the space with the mouse.
 
 
