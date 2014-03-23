@@ -42,7 +42,7 @@ These are the objects that handle the cuts:
 	ofPixels coronalPixels;
 	ofPixels sagittalPixels;
 	ofPixels axialPixels;
-![VolumeSlice_GUI](project_images/VolumeSlice_GUI.png?raw=true "VolumeSlice_GUI")
+[VolumeSlice_GUI](project_images/VolumeSlice_GUI.png?raw=true "VolumeSlice_GUI")
 And these are the methods to get the desired information about the voxel:
 
 	int getVoxelValue();
