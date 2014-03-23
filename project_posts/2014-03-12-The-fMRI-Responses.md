@@ -20,9 +20,9 @@ He pulled out four dimensions, where similar categories are represented by nearb
 
 * The second specifies categories related to social interactions, like people, and communication verbs and so on.
 
-* The third separates categories associated with man-made objects, people and vehicles, from those related with nature, like plants and animals.
+* The third distinguishes categories associated with man-made objects, people and vehicles, from those related with nature, like plants and animals.
 
-* The fourth separates biological categories, like animals, plants and people, from others.  For example, a cat would score strongly on the first and third, but weakly on the second and fourth dimensions.
+* The fourth are biological dimension, like animals, plants and people, from others.  For example, a cat would score strongly on the first and third, but weakly on the second and fourth dimensions.
 
 
 
