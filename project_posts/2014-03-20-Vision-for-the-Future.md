@@ -19,7 +19,7 @@ How to combine different sorts of visualizations?
 		by age of user
 		by private circles
 
-**Feedback about the ideas for future development:**
+**User Feedback regarding ideas for future development:**
 	
 	* Allow users to comment and share opinions to improve the application by
 	  creating a post in their Google+ account under #Dreamsprawler_comment hashtag.
