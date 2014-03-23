@@ -42,7 +42,7 @@ These are the objects that handle the cuts:
 	ofPixels coronalPixels;
 	ofPixels sagittalPixels;
 	ofPixels axialPixels;
-[VolumeSlice_GUI](project_images/VolumeSlice_GUI.png?raw=true "VolumeSlice_GUI")
+![VolumeSlice_GUI](../project_images/VolumeSlice_GUI.png?raw=true "VolumeSlice_GUI")
 And these are the methods to get the desired information about the voxel:
 
 	int getVoxelValue();
@@ -51,7 +51,7 @@ And these are the methods to get the desired information about the voxel:
 #####ofxTalairach
 This class is currently offering information about the selected voxel. We want to konw what brain region is included on each voxel. To do that we have loaded a volume that instead of intensity values contains a number that corresponds to a table with labels.
 you can find more information about the talairach brain [here](http://www.talairach.org)
-![talairach_brain](project_images/talairach_brain.png?raw=true "talairach_brain")
+![talairach_brain](../project_images/talairach_brain.png?raw=true "talairach_brain")
 
 #####tabManager
 #####twitterManager
