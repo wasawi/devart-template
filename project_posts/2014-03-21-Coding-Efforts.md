@@ -1,15 +1,16 @@
-#Code samples
+#Code Samples
 
-The following are the main parts of the current application.
-We decided to explain what is doing each class instead of commenting the code per line.
+The following are the main coding parts of the current application.
+We decided to explain what is happening in each class instead of commenting the code line per line.
 
-###Own code
+###Our code:
 
-#####VizManager
-This class handles the visualization. It has access to the volume, the volume rendering and the GUI that allows to select a point in the volume. It can do conversions from volume space (volume width/height/depth) to OpenGL space (usually normalized) and to the GUI coordinate space(normalized). 
-It also can get the position of the mouse to know where are you pointing on the volume (by using ofxRay).
+**VizManager**
 
-these are some of the objects included:
+This class handles the visualization. It has access to the volume, the volume rendering and the GUI that allows to select a point in the volume. It can do conversions from volume space (volume width/height/depth) to OpenGL space (usually normalized) and to the GUI coordinate space (normalized). 
+It can also get the position of the mouse to know where are you pointing on the volume (by using ofxRay).
+
+Here are some of the objects included in this class:
 	
 	//All Coordinates
 	ofVec3f	uiRange;	// maximum and minimum values for UIs
@@ -21,10 +22,11 @@ these are some of the objects included:
 	ofVec3f talCoord;	// volume coords + offset Tal coords for Tal tables.
 
 
-#####ofxVolumeSlice
-This class loads a volume dataset (by loading a set of tiff images) and computes 3 images representing the 3 sections of the brain. In medical tradition those cuts are called Coronal (the one on top) Saggital (middle) and axial (bottom). every time the user selects a poin by clicking on the image the GUI will display the according image slice corresponding to the current selected point of the volume.
+**ofxVolumeSlice**
 
-These are the objects that handle the cuts:
+This class loads a volume dataset (by loading a set of tiff images) and computes 3 images representing the 3 sections of the brain. In medical tradition those cuts are called Coronal (the one on top) Saggital (middle) and axial (bottom). every time the user selects a point (done by clicking on the image) the GUI will display the according image slice corresponding to the current selected point of the volume.
+
+Here are the objects that handle the cuts:
 
 	//redreaw the volume images
 	void redrawSagittal();
@@ -44,59 +46,77 @@ These are the objects that handle the cuts:
 	ofPixels axialPixels;
 ![VolumeSlice_GUI](../project_images/VolumeSlice_GUI.png?raw=true "VolumeSlice_GUI")
 
-And these are the methods to get the desired information about the voxel:
+And here are the methods to get the desired information about the voxel:
 
 	int getVoxelValue();
 	int getVoxelNumber();
 
-#####ofxTalairach
-This class is currently offering information about the selected voxel. We want to konw what brain region is included on each voxel. To do that we have loaded a volume that instead of intensity values contains a number that corresponds to a table with labels.
+**ofxTalairach**
+
+This class is currently offering information about the selected voxel. We want to know what brain region is included on each voxel. To do that we are loading a volume without intensity values, instead, indices to tables with corresponding labels. For instance:
+
+	0	*.*.*.*.*
+	1	Left Cerebellum.Posterior Lobe.Inferior Semi-Lunar Lobule.Gray Matter.*
+	2	Right Cerebellum.Posterior Lobe.Inferior Semi-Lunar Lobule.Gray Matter.*
+	3	Left Cerebellum.Posterior Lobe.Cerebellar Tonsil.Gray Matter.*
+	4	Right Cerebellum.Posterior Lobe.Cerebellar Tonsil.Gray Matter.*
+	5	Left Brainstem.Medulla.*.*.*
+	6	Right Brainstem.Medulla.*.*.*
+	7	*.*.Inferior Temporal Gyrus.*.*
+	8	Left Cerebrum.Temporal Lobe.Inferior Temporal Gyrus.Gray Matter.Brodmann area 20
+	9	Left Cerebrum.Temporal Lobe.Inferior Temporal Gyrus.*.*
+	10	Left Cerebrum.Temporal Lobe.*.*.*
+
+
+
 you can find more information about the talairach brain [here](http://www.talairach.org)
 ![talairach_brain](../project_images/talairach_brain.png?raw=true "talairach_brain")
 
-#####tabManager
-We have done a trick here to simulate a tab. Since ofxUI is not oofering tabs we are drawing buttons in different states to simulate a tabbed canvas.
+**tabManager**
 
-#####googleManager
-Here we handle all communication with the google API. for now we have plugged a twitter reader because we had some code from a previous project. But here is where Google API will be living.
+We have done a trick here to simulate a tab. Since ofxUI is not offering tabs we are drawing buttons in different states to simulate a tabbed canvas.
 
-###External code
-Using most of the Openframeworks goodies :) 
-We are relying in the libary which is supported by a large community.
+**googleManager**
 
-#####ofEasyCam
-Used to move the camera around the brain
+Here we are handling all communication with the google API. for now we are using a twitter reader for the sake of testing. But this class will handle the Google API calls in the future.
 
-#####ofxVolumetrics
-Used to render the brain as a volume and cut it at any level
+**External code**
+Using most of the Openframeworks goodies.
+We are relying in a library which is supported by a large community.
+
+**ofEasyCam**
+Moves the camera around the brain
+
+**ofxVolumetrics**
+Creates the render the brain as a volume and cut it at any level
 It has been modified to allow cuts at any angle
 
-#####ofxSuperlog
-Used to keep track of events for a good debugging
+**ofxSuperlog**
+Keep track of events for a good debugging
 
-#####ofxUI
-Used to render the GUI, these
+**ofxUI**
+Renders the GUI
 
-#####ofxCameraSaveLoad
-Used to save and load the current state of the camera
+**ofxCameraSaveLoad**
+Saves and loads the current state of the camera
 
-#####ofxJSON
-Used to parse the responses from Google API
+**ofxJSON**
+Responsible for parsing the responses from Google API
 
-#####ofxXmlSettings
-Used to save UI settings
+**ofxXmlSettings**
+Saves UI settings
 
-#####ofxOauth
-Used to communicate with Twitter (in the future if will be replaced by Google)
+**ofxOauth**
+Communicates with Twitter (in the future if will be replaced by Google)
 
-#####ofxTwitter
-Used to communicate with Twitter (in the future if will be replaced by Google)
+**ofxTwitter**
+Communicates with Twitter (in the future if will be replaced by Google)
 
-#####ofxFTGL
-Used to render fonts from any language
+**ofxFTGL**
+Render fonts from any language
 
-#####ofxRay
-Used to select points in the space with the mouse.
+**ofxRay**
+Select points in the space with the mouse.
 
 
 
