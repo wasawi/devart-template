@@ -62,7 +62,7 @@ Here we handle all communication with the google API. for now we have plugged a 
 
 ###External code
 Using most of the Openframeworks goodies :) 
-We are relying in the libary which is supported by hundreads of proggramers asdlkfj 
+We are relying in the libary which is supported by a large community.
 
 #####ofEasyCam
 Used to move the camera around the brain
