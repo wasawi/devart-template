@@ -5,7 +5,6 @@
 (from the movie "Paprika" by Satoshi Kon)
 
 
-## Authors
 Wendy Ann Mansilla, http://folk.ntnu.no/wendyann/
 
 Jordi Puig, http://github.com/wasawi, http://www.wasawi.com
