@@ -14,14 +14,14 @@ The brain is complex and involves multiple processes, a careful deduction is a m
 Image credit: http://www.frontiersin.org/Neurotrauma/10.3389/fneur.2013.00016/full, via: Wikimedia Commons
 
 
-#### So, how can we use these voxels to come up with a mapping machine as what Gallant Lab calls brain-reading? 
+**So, how can we use these voxels to come up with a mapping machine as what Gallant Lab calls brain-reading?** 
 
-1. We need to model how clusters of activity in the brain`s voxels corresponds to what a subject is seeing. This gives us a semantic map of words or objects and the corresponding areas of brain activation.
 
-What Gallant Lab does is to ask subjects to watch hours of movies while inside an fMRI. The visual stimuli is then mapped out with the pattern of voxel activation. For each, say, 50,000 voxels in the brain, researchers create several statistical models to generate a comprehensive description of what is actually happening in the subject`s brain. 
+[1]  We need to model how clusters of activity in the brain`s voxels corresponds to what a subject is seeing. This gives us a semantic map of words or objects and the corresponding areas of brain activation.
 
-2. Using the model generated in the first step, the calculated fMRI data correlations can be used to help a machine/program decode what the subject is seeing. This process leads to another research activity made by Gallant Lab where they are reversing the process and decoding brain activity to generate a video that shows prediction of what the subject is actually seeing (see, http://www.youtube.com/watch?v=nsjDnYxJ0bo)
+What Gallant Lab did was to ask subjects to watch hours of movies while inside an fMRI. The visual stimuli is then mapped out with the pattern of voxel activation. For each, say, 50,000 voxels in the brain, researchers create several statistical models to generate a comprehensive description of what is actually happening in the subject`s brain. 
 
+[2]  Using the model generated in the first step, the calculated fMRI data correlations can be used to help a machine/program decode what the subject is seeing. This process leads to another research activity made by Gallant Lab where they are reversing the process and decoding brain activity to generate a video that shows prediction of what the subject is actually seeing (see, http://www.youtube.com/watch?v=nsjDnYxJ0bo)
 
 Peak BOLD responses to each of the 1,750 training and 120 validation images were estimated from the preprocessed data. Gallant Lab provide these estimated responses in their file. The file is stored in a .mat file format, which is equivalent to hf5 format, and can be read directly using the PyTables library in python. The responses for each voxel have been z-scored, so for a given voxel the units of each "response" are standard deviations from that voxel's mean response. Also, of the 73,728 (64X64X18) voxels recorded for each scan, only ~25,000 voxels in or near the cortex were selected for each subject. ROIs for each subject were determined based on separate localizer scans (not included). See Kay et al (2008) for more details of BOLD response estimation, voxel selection, and ROI definition.
 
@@ -39,7 +39,7 @@ V1resp = Dat[:,V1idx]
 print V1resp
 ```
 
-Using the f.listNodes shows all variables available in the file:
+Using the `f.listNodes` shows all variables available in the file:
 
 - dataTrn (S1/S2) : 1,750 x ~25,000 matrix; 1,750 responses (one per training image) in each
 of ~25,000 voxels
@@ -57,11 +57,13 @@ The result is a large dataset with thousands of voxel responses:
 
 Kay et al. (2008) used receptive-field models to build a visual decoder from fMRI data. In the algorithm training step, they established how the activity of each voxel in the visual cortex responded to locations, orientations and spatial frequencies presented in 1750 images. In the image identification step, they presented images out of a set which was not used during the training session. By measuring the response of each voxel to the new image, and comparing it with the predicted response for each image out of this new set, they were able to guess which image was actually seen by the subject. Out of over a thousand of images (for example, apple 1, apple 2,... cat 1, cat 2, cat 3,...etc.), fMRI can predict which image the subject is actually seeing (for example, cat 1). 
 
-References 
+**References**
 
 Kay, K. N., Naselaris, T., Prenger, R. J., & Gallant, J. L. (2008). Identifying natural images
 from human brain activity. Nature, 452(7185), 352-355.
 
 Naselaris, T., Prenger, R. J., Kay, K. N., Oliver, M., & Gallant, J. L. (2009). Bayesian
 reconstruction of natural images from human brain activity. Neuron, 63(6), 902-915.
+
+Huth, Nishimoto, Vu & Gallant. (2012). A Continuous Semantic Space Describes the Representation of Thousands of Object and Action Categories across the Human Brain. Neuron http://dx.doi.org/10.1016/j.neuron.2012.10.014
 
