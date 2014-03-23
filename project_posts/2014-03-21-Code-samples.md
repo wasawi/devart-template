@@ -1,66 +1,31 @@
-## Sample of current draw in visualization class:
+#Code samples
 
-	if (bDraw)
-	{
-		// Draw Volume
-		ofSetColor(255);
-		cam.begin();
-			myVolume.updateVolume(volPos, volSize, 0);
-		// check collision
-		if (bSelecting){
-			doesIntersect = myVolume.getIntersection(&cam, intersectionPosition);
-			if (doesIntersect) {
-				updateVolume2Slices();
-				updateCoordinates();
-				updateSlicesImage();
-			}
-		}
-		cam.end();
-		myVolume.draw(0, ofGetHeight(), ofGetWidth(), -ofGetHeight());
-		
-		// Draw ArcBall
-		if (!bSelecting && ofGetMousePressed()) cam.drawArcBall();
-		
-		//Draw Slices canvas
-		ofPushView();
-		ofTranslate(initX, initY);
-		ofPushStyle();
-			ofSetColor(OFX_UI_COLOR_BACK);
-			ofRect(0, 0, boxW+dist*3, (boxW+dist)*3+dist);
-		ofPopStyle();
-		
-		//Draw Slices
-		ofPushView();
-		ofTranslate(dist, dist);
-		volume2D.draw(CORONAL);
-		
-		ofPushView();
-		ofTranslate( 0, boxH+ dist);
-		volume2D.draw(SAGITTAL);
-		
-		ofPushView();
-		ofTranslate( 0, boxH+ dist);
-		volume2D.draw(AXIAL);
-		
-		ofPopView();
-		ofPopView();
-		ofPopView();
-		ofPopView();
-		
-		//Draw talairach pixel value and labels
-		ofPushStyle();
-	//		ofSetColor(voxelValue, 255);
-	//		ofRect(initX,tempY,boxH*2+dist*5,dist);
-		
-		ofSetColor(0, 255, 255);
-		ofDrawBitmapString("Talairarch coordinate :", talDrawX, talDrawY);
-		string str= "x= "+ ofToString(talCoord.x)+" y= "+ ofToString(talCoord.y)+" z= "+ ofToString(talCoord.z);
-		ofDrawBitmapString(str, talDrawX, talDrawY+dist);
-		for (int i=0; i<outputLabels.size()-2; i++) {
-			vector<string> items = ofSplitString(outputLabels[i+2], ",");
-				for (int j=0; j<items.size(); j++) {
-					ofDrawBitmapString(items[j], talDrawX, talDrawY+i*dist+j*dist+(dist*2));
-				}
-		}
-		ofPopStyle();
-	}
+The following are the main parts of the current application.
+We decided to explain what is doing each class instead of commenting the code per line.
+
+###Own code
+
+#####VizManager
+This class handles the visualization. It has access to the volume, the volume rendering and the GUI that allows to select a point in the volume. It can do conversions from volume space (volume width/height/depth) to OpenGL space (usually normalized) and to the GUI coordinate space(normalized). 
+It also can get the position of the mouse to know where are you pointing on the volume (by using ofxRay) 
+
+#####ofxVolumeSlice
+
+#####ofxTalairach
+#####tabManager
+#####twitterManager
+
+
+###External code
+
+#####ofEasyCam
+#####ofxVolumetrics
+#####ofxSuperlog
+#####ofxUI
+#####ofxCameraSaveLoad
+#####ofxJSON
+#####ofxXmlSettings
+#####ofxOauth
+#####ofxTwitter
+#####ofxFTGL
+#####ofxRay
