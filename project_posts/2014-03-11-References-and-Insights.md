@@ -1,24 +1,21 @@
 ##References and Insights
 
-We would like the application to look like a map. Instead of being a map of the world we would like to have a map of dream on brain.
+We would like the application to look like a map. But instead of being a map of the world location we would like to have a map of a dream on brain.
 
 ![world](../project_images/ref_1.png?raw=true "world")
 http://workshop.chromeexperiments.com/projects/armsglobe/
 
-![world](../project_images/ref_2.png?raw=true "world")
-http://data-arts.appspot.com/globe/
+
 
 
 We would also like to run statistics on the dreams of the people. For example how many times the word "cat" has been mentioned and what is cat usually related to in a dream.
 
 
-![viz](../project_images/ref_3.jpg?raw=true "viz")
-http://selfiecity.net/
+![vizualisation](../project_images/ref_2.png?raw=true "vizualisation")
+http://data-arts.appspot.com/globe/
 
-![viz](../project_images/ref_4.png?raw=true "viz")
-http://www.oomcreative.com/flow-motion-water-data-visualization
 
-And also using heat maps to display where this word is located in the brain (using Gallant’s dataset).
+And also using heat maps to display where the word or object is located in the brain (using the data correlations with Gallant’s dataset).
 
 
 
