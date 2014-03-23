@@ -1,4 +1,6 @@
-##Elaboration
+##Motivation
+
+![Example Image](project_images/cover.jpg?raw=true "Example Image")
 
 ### What are dreams and reality machine?
 

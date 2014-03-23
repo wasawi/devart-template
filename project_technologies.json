@@ -1,15 +1,22 @@
 {
     "technologies": {
         "apis": [
-            "Oauth 2.0",
-            "Google Plus API"
+            "Google Plus API",
+            "Oauth 2.0"
         ],
          "platforms": [
+            "WebGL",
+            "Html5",
             "MacOs",
-            "Windows"
+            "Windows",
+            "Google Chrome",
+            "css"
         ],
         "toolkits": [
-            "OpenFrameworks"
+            "OpenFrameworks",
+            "X toolkit",
+            "three.js",
+            "socket.IO"
         ]
     },
     "themes": [

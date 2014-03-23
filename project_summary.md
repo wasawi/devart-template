@@ -29,7 +29,8 @@ Whenever we are dreaming, we are actually undergoing a process of "repair". We a
 
 
 ## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
+
+# TODO
 
 [Example Link](http://www.google.com "Example Link")
 
@@ -41,17 +42,8 @@ We are currently focusing in two developments:
 	The client application to handle all visualization.
 	The ofxGallant addon to map parsed words to the brain space.
 
+Discussion about the code [here](project_posts/2014-03-21-Coding-Efforts.md)
 
-![Dreamsprawler app](project_images/dreamSprawler_1.png?raw=true "Dreamsprawler app")
-![Dreamsprawler app detail](project_images/BrainSketch_2-03.png?raw=true "Dreamsprawler app detail")
-
-
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
-```
 ## Links to External Libraries
  NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
 
@@ -61,10 +53,19 @@ function test() {
 
 [Openframeworks](http://www.openframeworks.cc/ "Openframeworks")
 
-..more soon
+[X toolkit](https://github.com/xtk/X)
+
+[three.js](http://threejs.org/)
+
+[socket.io](http://socket.io/)
+
+
+Discussion about technologies [here](project_posts/2014-03-23-About-technologies.md)
+
 
 ## Images & Videos
-More images/video
 
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
+![Dreamsprawler app](project_images/dreamSprawler_1.png?raw=true "Dreamsprawler app")
+![Dreamsprawler app detail](project_images/BrainSketch_2-03.png?raw=true "Dreamsprawler app detail")
+
 
