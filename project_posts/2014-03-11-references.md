@@ -1,6 +1,6 @@
-#References
+##References and Insights
 
-We would like the application to look like a map. Instead of being a map of the world we would like to have a map of the brain.
+We would like the application to look like a map. Instead of being a map of the world we would like to have a map of dream on brain.
 
 ![world](../project_images/ref_1.png?raw=true "world")
 http://workshop.chromeexperiments.com/projects/armsglobe/
@@ -9,7 +9,7 @@ http://workshop.chromeexperiments.com/projects/armsglobe/
 http://data-arts.appspot.com/globe/
 
 
-Also we would like to run statistics on the dreams of the people. For example how many times the word cat has been mentioned and what is cat usually related to.
+We would also like to run statistics on the dreams of the people. For example how many times the word "cat" has been mentioned and what is cat usually related to in a dream.
 
 
 ![viz](../project_images/ref_3.jpg?raw=true "viz")
