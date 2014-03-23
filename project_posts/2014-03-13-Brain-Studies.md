@@ -26,7 +26,7 @@ What Gallant Lab did was to ask subjects to watch hours of movies while inside a
 Peak BOLD responses to each of the 1,750 training and 120 validation images were estimated from the preprocessed data. Gallant Lab provide these estimated responses in their file. The file is stored in a .mat file format, which is equivalent to hf5 format, and can be read directly using the PyTables library in python. The responses for each voxel have been z-scored, so for a given voxel the units of each "response" are standard deviations from that voxel's mean response. Also, of the 73,728 (64X64X18) voxels recorded for each scan, only ~25,000 voxels in or near the cortex were selected for each subject. ROIs for each subject were determined based on separate localizer scans (not included). See Kay et al (2008) for more details of BOLD response estimation, voxel selection, and ROI definition.
 
 
-The following code is how we loaded the data into python to get all voxel responses in the human primary visual cortex (V1) in the training data set:
+**The following code is how we loaded the data into python to get all voxel responses in the human primary visual cortex (V1) in the training data set:**
 
 ```
 import tables, numpy

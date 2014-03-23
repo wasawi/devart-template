@@ -8,7 +8,7 @@
 
 http://www.wasawi.com/a-me/
 
-Article at Siggraph Asia:
+An article on A-me at Siggraph Asia:
 
 Jordi Puig, Andrew Perkis, Aud Sissel Hoel, and Alvaro Cassinelli. (2013). A-me: augmented memories. In SIGGRAPH Asia 2013 Art Gallery (SA '13). ACM, New York, NY, USA, , Article 25 , 5 pages. DOI=10.1145/2542256.2542264 http://doi.acm.org/10.1145/2542256.2542264
 
@@ -34,4 +34,6 @@ http://selfiecity.net/
 
 [![Candy](../project_images/ref_3b.png?raw=true)](https://www.youtube.com/watch?v=XQum_UZOzuQ)
 
+A journal explaining the scientific concept is published at:
 
+Mansilla, Wendy Ann; Perkis, Andrew; Ebrahimi, Touradj. (2013) Exploring the Impact of Food Craving and Pleasure Technologies on Aesthetic Experiences in Digital Media. International Journal of Human-Computer Interaction. http://dx.doi.org/10.1080/10447318.2013.846791
