@@ -22,6 +22,6 @@ How to combine different sorts of visualizations?
 **Feedback about the ideas for future development:**
 	
 	* Allow users to comment and share opinions to improve the application by
-	  creating a post in their Google+ account under #Dreamsprawler hashtag.
+	  creating a post in their Google+ account under #Dreamsprawler_comment hashtag.
 
 	
