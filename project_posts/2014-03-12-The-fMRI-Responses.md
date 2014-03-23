@@ -10,7 +10,19 @@ Below is a sketch studying how we can use the data from UC Berkeley in Dreamspra
 
 
 
-In the Gallant Lab`s research, they are showing that the brain organises concepts along a continuous map. A huge range of categories are organised according to different features, for instance if the object is biological or artificial or whether they are moving or still. Areas that represent similar concepts animals and humans or houses and buildings —tend to be close together, while most disparate categories are farther apart. These patterns are consistent across different individuals. They also mentioned that this arrangement is an efficient one because it takes a lot of energy for the neurons in the brain to communicate with one another, especially if they have long connections between them. “One can assume that the brain is trying to minimise the length of the wires...One way of doing that is to put bits that are doing similar computations next to each other (J. Gallant).”
+In the Gallant Lab`s research, they are showing that the brain organises concepts along a continuous map. A huge range of categories are organised according to different features, for instance if the object is biological or artificial or whether they are moving or still. Areas that represent similar concepts animals and humans or houses and buildings —tend to be near each other, while most disparate categories are farther apart. These patterns are consistent across different individuals. They also mentioned that this arrangement is an efficient one because it takes a lot of energy for the neurons in the brain to communicate with one another, especially if they have long connections between them. “One can assume that the brain is trying to minimise the length of the wires...One way of doing that is to put bits that are doing similar computations next to each other (J. Gallant).”
+
+Specifically, to organize the data, people at the Gallant Lab used a mathematical technique called principal component analysis (PCA), which looks for strong patterns in a huge data set.
+
+He pulled out four dimensions, where similar categories are represented by nearby parts of the brain.
+
+* The first and strongest dimension distinguishes things that move, like animals and vehicles, from things that do not, like a house.
+
+* The second specifies categories related to social interactions, like people, and communication verbs and so on.
+
+* The third separates categories associated with man-made objects, people and vehicles, from those related with nature, like plants and animals.
+
+* The fourth separates biological categories, like animals, plants and people, from others.  For example, a cat would score strongly on the first and third, but weakly on the second and fourth dimensions.
 
 
 
