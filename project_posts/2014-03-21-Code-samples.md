@@ -63,27 +63,38 @@ Here we handle all communication with the google API. for now we have plugged a 
 ###External code
 Using most of the Openframeworks goodies :) 
 We are relying in the libary which is supported by hundreads of proggramers asdlkfj 
+
 #####ofEasyCam
 Used to move the camera around the brain
+
 #####ofxVolumetrics
 Used to render the brain as a volume and cut it at any level
 It has been modified to allow cuts at any angle
+
 #####ofxSuperlog
 Used to keep track of events for a good debugging
+
 #####ofxUI
 Used to render the GUI, these
+
 #####ofxCameraSaveLoad
 Used to save and load the current state of the camera
+
 #####ofxJSON
 Used to parse the responses from Google API
+
 #####ofxXmlSettings
 Used to save UI settings
+
 #####ofxOauth
 Used to communicate with Twitter (in the future if will be replaced by Google)
+
 #####ofxTwitter
 Used to communicate with Twitter (in the future if will be replaced by Google)
+
 #####ofxFTGL
 Used to render fonts from any language
+
 #####ofxRay
 Used to select points in the space with the mouse.
 
