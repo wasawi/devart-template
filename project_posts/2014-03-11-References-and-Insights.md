@@ -4,7 +4,7 @@
 * We would like to have an installation where the people can navigate a brain in a Augmented Reality setup. Jordi has had a succesful exhibition using these technologies at the [STRP festival](http://strp.nl/en/strp%20biënnale/2013/jordi-puig/). We would like to implement similar techniques to offer a hihg end experience as an interactive installation.
 
 more here:
-[![A-me:Augmented memories](../project_images/ref_ame.png?raw=true)](https://vimeo.com/68279845)
+[![A-me:Augmented memories](../project_images/ref_ame.jpg?raw=true)](https://vimeo.com/68279845)
 Article at Siggraph Asia:
 Jordi Puig, Andrew Perkis, Aud Sissel Hoel, and Alvaro Cassinelli. 2013. A-me: augmented memories. In SIGGRAPH Asia 2013 Art Gallery (SA '13). ACM, New York, NY, USA, , Article 25 , 5 pages. DOI=10.1145/2542256.2542264 http://doi.acm.org/10.1145/2542256.2542264
 http://www.wasawi.com/a-me/
