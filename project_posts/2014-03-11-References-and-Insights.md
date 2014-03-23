@@ -6,15 +6,18 @@
 
 [![A-me:Augmented memories](../project_images/ref_ame.jpg?raw=true)](https://vimeo.com/68279845)
 
-Article at Siggraph Asia:
-Jordi Puig, Andrew Perkis, Aud Sissel Hoel, and Alvaro Cassinelli. 2013. A-me: augmented memories. In SIGGRAPH Asia 2013 Art Gallery (SA '13). ACM, New York, NY, USA, , Article 25 , 5 pages. DOI=10.1145/2542256.2542264 http://doi.acm.org/10.1145/2542256.2542264
 http://www.wasawi.com/a-me/
+
+	Article at Siggraph Asia:
+	Jordi Puig, Andrew Perkis, Aud Sissel Hoel, and Alvaro Cassinelli. 2013. A-me: augmented memories. In SIGGRAPH Asia 2013 Art Gallery (SA '13). ACM, New York, NY, USA, , Article 25 , 5 pages. DOI=10.1145/2542256.2542264 http://doi.acm.org/10.1145/2542256.2542264
+
 
 
 * We would like the application to look like a map. But instead of being a map of the world location we would like to have a map of a dream on brain.
 
 ![world](../project_images/ref_1b.png?raw=true "world")
 http://workshop.chromeexperiments.com/projects/armsglobe/
+
 http://data-arts.appspot.com/globe/
 
 
@@ -22,6 +25,7 @@ http://data-arts.appspot.com/globe/
 
 ![visualisation](../project_images/ref_2b.png?raw=true "visualisation")
 http://data-arts.appspot.com/globe/
+
 http://selfiecity.net/
 
 
