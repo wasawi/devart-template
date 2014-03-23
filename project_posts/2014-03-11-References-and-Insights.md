@@ -1,6 +1,6 @@
 ##References and Insights
 
-We would like the application to look like a map. But instead of being a map of the world location we would like to have a map of a dream on brain.
+* We would like the application to look like a map. But instead of being a map of the world location we would like to have a map of a dream on brain.
 
 ![world](../project_images/ref_1b.png?raw=true "world")
 http://workshop.chromeexperiments.com/projects/armsglobe/
@@ -8,16 +8,17 @@ http://workshop.chromeexperiments.com/projects/armsglobe/
 
 
 
-We would also like to run statistics on the dreams of the people. For example how many times the word "cat" has been mentioned and what is cat usually related to in a dream.
+* We would also like to run statistics on the dreams of the people. For example, how many times the word "cat" has been mentioned and what this word usually related to in a dream. And also using heat maps to display where the word or object is located in the brain space (using the data correlations with Gallant’s dataset).
 
 
 ![vizualisation](../project_images/ref_2b.png?raw=true "vizualisation")
 http://data-arts.appspot.com/globe/
 
 
-And also using heat maps to display where the word or object is located in the brain (using the data correlations with Gallant’s dataset).
+* We would also like to explore digital storytelling by generating stories of the people`s world dream. Wendy has developed an installation called Candy that generates the most popular food cravings of people at a given time. Candy take twits of users to create a narrative food palette:
 
 
+[![ScreenShot](../project_images/ref_3b.png?raw=true)](https://www.youtube.com/watch?v=XQum_UZOzuQ)
 
 
 
