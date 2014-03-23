@@ -1,4 +1,4 @@
-## What is a Voxel?
+## What are Voxels, fMRI, BOLD responses and all these jargons?
 
 The subject`s brain activity in the image shown below is sending signals to the fMRI related to the task. The red specks that stand out in the background is showing where blood is flowing in the brain. fMRI images represents these activities according to changes in blood oxygen level, a proxy for degree of mental activity. It is important to understand what fMRI images actually show especially the concept behind the voxel responses for us to create an object to brain location mapping in our project.
 
