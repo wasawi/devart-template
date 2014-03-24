@@ -31,6 +31,18 @@ One of the motivation of Dreamsprawler is to create an awareness of the technolo
 Whenever we are dreaming, we are actually undergoing a process of "repair". We are repairing not just our body but also preparing our minds for the next day or even our future. Our brain is sharing to us through dreams what needs to be learned or skills we need to acquire. We experience nightmares because our mind needs to learn and cope up with the daily pressure and dangers in life. Dreams are essential to our well-being. Dreams can also give us a hint of the areas in life that we need to improve. By sharing fragments of our dream story to Dreamsprawler we`ll be able to discover our relationship with the unconcious part of us and the environment we are living in.
 
 
+## Graphical Concepts
+
+* Dreamsprawler physical installation set-up:
+
+![Dreamsprawler Navigation](project_images/Dreamsprawler_installation.png?raw=true "Dreamsprawler Navigation")
+
+* Dreamsprawler GUI showing detailed view of the brain:
+
+![Dreamsprawler app](project_images/dreamSprawler_1.png?raw=true "Dreamsprawler app")
+![Dreamsprawler app detail](project_images/BrainSketch_2-03.png?raw=true "Dreamsprawler app detail")
+
+
 ## Link to Prototype
 
 ###TODO
@@ -52,17 +64,4 @@ Discussion about the code [here](project_posts/2014-03-21-Coding-Efforts.md)
 
 
 Discussion about technologies [here](project_posts/2014-03-23-About-technologies.md)
-
-
-## Images & Videos
-
-* Dreamsprawler physical installation set-up:
-
-![Dreamsprawler Navigation](project_images/Dreamsprawler_installation.png?raw=true "Dreamsprawler Navigation")
-
-* Dreamsprawler GUI showing detailed view of the brain:
-
-![Dreamsprawler app](project_images/dreamSprawler_1.png?raw=true "Dreamsprawler app")
-![Dreamsprawler app detail](project_images/BrainSketch_2-03.png?raw=true "Dreamsprawler app detail")
-
 
