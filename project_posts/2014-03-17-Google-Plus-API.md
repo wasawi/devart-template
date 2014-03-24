@@ -1,6 +1,6 @@
 ## Google+ API user`s post and activities retrieval test
 
-There is no real straightforward way to test Google+ API for fetching data, we have to go over several examples. For this project, we decided to use python scripting to later on integrate it with OpenFrameworks. 
+There is no real straightforward way to test Google+ API for fetching data, we have to go over several examples. For this project, we decided to use python scripting to later on integrate it with OpenFrameworks and three.js. 
 
 The installation procedure for the Google + API various from one machine to another depending on the package manager that you are using. But, here is our steps:
 
@@ -91,21 +91,19 @@ After accepting, you should see this page confirmation:
 ![Users post authentication](../project_images/Users_post_authentication.png?raw=true "Users post authentication")
 
 ```
-# WAM: This is a python code and can be obtained at the Google+ API client website or at github, but for 
-# practicality and easy access, we are storing it here. 
-# Copy-paste this code and save it with a .py extension. Run it with an edited client_secrets.json on 
-# the same directory.
+# WAM: This is a python code and can be obtained at the Google+ API 
+# client website or at github, but for practicality and easy access, 
+# we are storing it here. 
+# Copy-paste this code and save it with a .py extension. 
+# Run it with an edited client_secrets.json on the same directory.
 #
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-#
 # Copyright (C) 2013 Google Inc.
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
+# http://www.apache.org/licenses/LICENSE-2.0
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -113,48 +111,36 @@ After accepting, you should see this page confirmation:
 # limitations under the License.
 
 """Simple command-line sample for the Google+ API.
-
 Command-line application that retrieves the list of the user's posts."""
-
 __author__ = 'jcgregorio@google.com (Joe Gregorio)'
 
 import sys
-
 from oauth2client import client
 from apiclient import sample_tools
-
 def main(argv):
   # Authenticate and construct service.
   service, flags = sample_tools.init(
       argv, 'plus', 'v1', __doc__, __file__,
       scope='https://www.googleapis.com/auth/plus.me')
-
   try:
     person = service.people().get(userId='me').execute()
-
     print 'Got your ID: %s' % person['displayName']
     print
     print '%-40s -> %s' % ('[Activitity ID]', '[Title]')
     print
-
     # Don't execute the request until we reach the paging loop below.
     request = service.activities().list(
         userId=person['id'], collection='public')
-
     # Loop over every activity and print the ID and a short snippet of content.
     while request is not None:
       activities_doc = request.execute()
       for item in activities_doc.get('items', []):
         print '%-040s -> %s' % (item['id'], item ['title'])
-
     # WAM removed: item['object']['content'][:30]
-
       request = service.activities().list_next(request, activities_doc)
-
   except client.AccessTokenRefreshError:
     print ('The credentials have been revoked or expired, please re-run'
       'the application to re-authorize.')
-
 if __name__ == '__main__':
   main(sys.argv)
 ```

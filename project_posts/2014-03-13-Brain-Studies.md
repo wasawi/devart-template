@@ -19,9 +19,13 @@ Image credit: http://www.frontiersin.org/Neurotrauma/10.3389/fneur.2013.00016/fu
 
 [1]  We need to model how clusters of activity in the brain`s voxels corresponds to what a subject is seeing. This gives us a semantic map of words or objects and the corresponding areas of brain activation.
 
-What Gallant Lab did was to ask subjects to watch hours of movies while inside an fMRI. The visual stimuli is then mapped out with the pattern of voxel activation. For each, say, 50,000 voxels in the brain, researchers create several statistical models to generate a comprehensive description of what is actually happening in the subject`s brain. 
+What Gallant Lab did was to ask subjects to watch hours of movies while inside an fMRI. The visual stimuli is then mapped out with the pattern of voxel activation. For each, say, 73,000 voxels in the brain, researchers create several statistical models to generate a comprehensive description of what is actually happening in the subject`s brain. 
 
-[2]  Using the model generated in the first step, the calculated fMRI data correlations can be used to help a machine/program decode what the subject is seeing. This process leads to another research activity made by Gallant Lab where they are reversing the process and decoding brain activity to generate a video that shows prediction of what the subject is actually seeing (see, http://www.youtube.com/watch?v=nsjDnYxJ0bo)
+[2]  Using the model generated in the first step, the calculated fMRI data correlations can be used to help a machine/program decode what the subject is seeing. This process leads to another research activity made by Gallant Lab where they are reversing the process and decoding brain activity to generate a video that shows prediction of what the subject is actually seeing, see:
+
+http://www.youtube.com/watch?v=nsjDnYxJ0bo
+
+**Study of the Gallant Brain Data**
 
 Peak BOLD responses to each of the 1,750 training and 120 validation images were estimated from the preprocessed data. Gallant Lab provide these estimated responses in their file. The file is stored in a .mat file format, which is equivalent to hf5 format, and can be read directly using the PyTables library in python. The responses for each voxel have been z-scored, so for a given voxel the units of each "response" are standard deviations from that voxel's mean response. Also, of the 73,728 (64X64X18) voxels recorded for each scan, only ~25,000 voxels in or near the cortex were selected for each subject. ROIs for each subject were determined based on separate localizer scans (not included). See Kay et al (2008) for more details of BOLD response estimation, voxel selection, and ROI definition.
 
