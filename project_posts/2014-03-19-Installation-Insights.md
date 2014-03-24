@@ -7,9 +7,9 @@ Dreamsprawler`s physical installation will use an optical see-through display to
 
 While navigating the brain, the user will find active areas in specific parts of the neural system that corresponds to the real-time dream stories shared at Google+.
 
-![Dreamsprawler Navigation 2](../project_images/Ame_point1-640x427.jpg?raw=true "Navigation 1")
+![Dreamsprawler Navigation 2](../project_images/Ame_point1-640x427.png?raw=true "Navigation 1")
 
-Pointing a specific region in the brain with the probe device will trigger a search within Google+ repository for other related dream stories activating the selected area.
+Pointing a specific region in the brain with the probe device will trigger a search within Google+ repository for coherent dream stories activating the selected area.
 
 ![Dreamsprawler Navigation 2](../project_images/Ame_point2-640x427.jpg?raw=true "Navigation 1")
 
