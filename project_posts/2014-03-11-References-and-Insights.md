@@ -1,4 +1,4 @@
-##References and Previous Installations
+##References and Previous Works
 
 
 * We would like Dreamsprawler to lead to an installation where participants can navigate a brain in a Augmented Reality setup. Jordi has made a succesful exhibition using these technologies at the [STRP Festival](http://strp.nl/en/strp%20biënnale/2013/jordi-puig/). We would like to implement similar techniques to offer a state-of-the-art experience as an interactive installation.
@@ -10,7 +10,7 @@ http://www.wasawi.com/a-me/
 
 An article on A-me at Siggraph Asia:
 
-Jordi Puig, Andrew Perkis, Aud Sissel Hoel, and Alvaro Cassinelli. (2013). A-me: augmented memories. In SIGGRAPH Asia 2013 Art Gallery (SA '13). ACM, New York, NY, USA, , Article 25 , 5 pages. DOI=10.1145/2542256.2542264 http://doi.acm.org/10.1145/2542256.2542264
+Jordi Puig, Andrew Perkis, Aud Sissel Hoel, and Alvaro Cassinelli. (2013). A-me: augmented memories. In SIGGRAPH Asia 2013 Art Gallery (SA '13). ACM, New York, NY, USA, , Article 25 , 5 pages. http://doi.acm.org/10.1145/2542256.2542264
 
 * We would also like to explore digital storytelling by generating stories of the people`s world dream. Wendy has developed an installation called Candy that generates the most popular food cravings of people at a given time. Candy take twits of users to create a narrative food palette:
 
