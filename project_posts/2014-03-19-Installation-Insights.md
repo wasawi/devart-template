@@ -1,11 +1,9 @@
-
 ## Physical Installation Insights
 
 Dreamsprawler installation will use an Optical See-Through display to overlay the virtual information into a phantom head. The user will be able to navigate the brain using a tracked probe device in the same fashion as neurosurgeons use it in pre-operative planning. 
 
 ![Dreamsprawler Device](../project_images/A-me.png?raw=true "Dreamsprawler Device")
 
-A-me.png
 
 While navigating the brain, the user will find active areas in specific parts of the neural system that corresponds to the real-time dream stories shared at Google+.
 
