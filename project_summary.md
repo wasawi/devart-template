@@ -31,7 +31,7 @@ One of the motivation of Dreamsprawler is to create an awareness of the technolo
 Whenever we are dreaming, we are actually undergoing a process of "repair". We are repairing not just our body but also preparing our minds for the next day or even our future. Our brain is sharing to us through dreams what needs to be learned or skills we need to acquire. We experience nightmares because our mind needs to learn and cope up with the daily pressure and dangers in life. Dreams are essential to our well-being. Dreams can also give us a hint of the areas in life that we need to improve. By sharing fragments of our dream story to Dreamsprawler we`ll be able to discover our relationship with the unconcious part of us and the environment we are living in.
 
 
-## Graphical Concepts
+## Graphics
 
 * Dreamsprawler physical installation set-up:
 
