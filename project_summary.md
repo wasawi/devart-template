@@ -1,8 +1,12 @@
 # Dreamsprawler
 
 
+
 **"The Internet and dreams are the same, they are areas where the mind escapes...Its potential is wonderful, the ability to see a friend`s dream as if its your own inspirational experience, both of you seeing the same dream."**
 (from the movie "Paprika" by Satoshi Kon)
+
+
+***
 
 
 Wendy Ann Mansilla, http://folk.ntnu.no/wendyann/
@@ -29,34 +33,22 @@ Whenever we are dreaming, we are actually undergoing a process of "repair". We a
 
 ## Link to Prototype
 
-# TODO
-
+###TODO
 [Example Link](http://www.google.com "Example Link")
 
 ## Example Code
 
-Current coding progress:
+Our Current coding progress:
 
 We are currently focusing in two coding approach:
 	A client application that handles all visualization.
-	The ofxGallant addon to map parsed words to the brain space.
+	The ofxGallant add-on to map parsed dreams to the brain space.
 
 Discussion about the code [here](project_posts/2014-03-21-Coding-Efforts.md)
 
 ## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
 
-[Google+ API](https://developers.google.com/+/api/ "Google+ API")
-
-[Gallant semantic space](http://gallantlab.org/ "GAllant semantic space")
-
-[Openframeworks](http://www.openframeworks.cc/ "Openframeworks")
-
-[X toolkit](https://github.com/xtk/X)
-
-[three.js](http://threejs.org/)
-
-[socket.io](http://socket.io/)
+[Google+ API](https://developers.google.com/+/api/ "Google+ API"), [Gallant semantic space](http://gallantlab.org/ "GAllant semantic space"), [Openframeworks](http://www.openframeworks.cc/ "Openframeworks"), [X toolkit](https://github.com/xtk/X), [three.js](http://threejs.org/), [socket.io](http://socket.io/)
 
 
 Discussion about technologies [here](project_posts/2014-03-23-About-technologies.md)
