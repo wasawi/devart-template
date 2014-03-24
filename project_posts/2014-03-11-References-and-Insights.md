@@ -1,4 +1,4 @@
-##References and Previous Works
+##References, Previous Works, and Insights
 
 
 * We would like Dreamsprawler to lead to an installation where participants can navigate a brain in a Augmented Reality setup. Jordi has made a succesful exhibition using these technologies at the [STRP Festival](http://strp.nl/en/strp%20biënnale/2013/jordi-puig/). We would like to implement similar techniques to offer a state-of-the-art experience as an interactive installation.
