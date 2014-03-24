@@ -1,26 +1,27 @@
-## Current challenges:
+## Current Challenges
 
 How to encourage users to upload and share data from:
 
-	• EEG or other sources.
-	videos
+	* EEG, other dream signals or sources.
+	* videos
 
 
 How to deal with privacy issues? 
 	
-	• probably using Google's systems.
-	• We need to let the user's anonimize their posts (if they want).
+	* probably using Google's security system.
+	* We need to allow the users to create anonymouse post (if they want).
 
 How to combine different sorts of visualizations?
 	
-	•It wold be cool to see dreams by:
+	* It would be ideal to see dreams by:
 		world location
 		by date of creation
 		by age of user
 		by private circles
 
-## Ideas for future development:
+**Users feedback regarding ideas for future development:**
 	
-	• Let users comment and share oppinions through the application will post on their Google+ account under #Dreamsprawler
+	* Allow users to comment and share opinions to improve the application by
+	  creating a post in their Google+ account under #Dreamsprawler_comment hashtag.
 
 	
