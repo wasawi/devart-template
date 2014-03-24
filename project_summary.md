@@ -66,7 +66,7 @@ Discussion about technologies [here](project_posts/2014-03-23-About-technologies
 
 * Dreamsprawler physical installation set-up:
 
-![Dreamsprawler Navigation](project_images/Ame_point2-640x427.jpg?raw=true "Dreamsprawler Navigation")
+![Dreamsprawler Navigation](project_images/Dreamsprawler_installation.png?raw=true "Dreamsprawler Navigation")
 
 * Dreamsprawler GUI showing detailed view of the brain:
 
