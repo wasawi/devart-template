@@ -1,4 +1,4 @@
-#Recap of Technologies Used
+#Recap of the Technologies Used
 
 Today we have a very important step in our development. We are realizing that we should have done things in a different order... (yes, these may be challenging) but we think it can be our strength for the final outcome of our project.
 
