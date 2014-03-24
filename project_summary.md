@@ -40,7 +40,7 @@ Whenever we are dreaming, we are actually undergoing a process of "repair". We a
 * Dreamsprawler GUI showing detailed view of the brain:
 
 ![Dreamsprawler app](project_images/dreamSprawler_1.png?raw=true "Dreamsprawler app")
-![Dreamsprawler app detail](project_images/BrainSketch_2-03.png?raw=true "Dreamsprawler app detail")
+![Dreamsprawler app detail](project_images/BrainSketch_nav.png?raw=true "Dreamsprawler app detail")
 
 
 ## Link to Prototype
