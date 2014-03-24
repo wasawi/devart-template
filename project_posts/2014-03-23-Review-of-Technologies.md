@@ -1,15 +1,15 @@
-#About technologies
+#Recap of Technologies Used
 
-Today we have a very important step in our development. We are realizing that we sould have done things in a different order... (yes, these are not very good news) but we think it can be our strength for the final outcome of the project.
+Today we have a very important step in our development. We are realizing that we should have done things in a different order... (yes, these may be challenging) but we think it can be our strength for the final outcome of our project.
 
-We started our project pointing at several technologies (OF, googleAPI, Oauth and few others). Those are not web technolologies. Somehow we fould out that we started by the roof before setting the base of the house. And here we will explain why.
+We started our project pointing at several technologies (OF, googleAPI, Oauth, to name a few). These are not web technologies. We found out that we started on a more challenging approach. And we will explain why.
 
-We wanted to have a hihg quality visuals and a very responsive application. So we decided to do the client application in Openframeworks. The problem is that the development in C++ is taking too much time to have a finished prototype for the DevArt deadline. Problably this application is the one we would use for the interactive installation at the Barbican center, because wo would run it in a high end setup descrived [here]()
+We wanted to have a high quality visuals and a very responsive application so we decided to do the client application in Openframeworks. The challenge with coding in C++ is that it can consume more time for us to provide a finished prototype to comply with the DevArt`s deadline. However, we are confident that can use the currently developed application as a reliable and stable interactive installation at the Barbican Center, because it is capable of running in a high-end set-up described [here]()
 
-In our final prototype we will show most of out intentions but for sure there will be a lot of things missing. We think now, that we could have done the prototype using web technologies (WebGL, [X toolkit](https://github.com/xtk/X), socket.IO, and others) since we would also use those for the web application and mostly because they are faster to develop.
+In our final prototype we will show most of our concepts but we feel we could have developed more. We thought that if we started with the web technology, we could have done a more comprehensive prototype using WebGL, [X toolkit](https://github.com/xtk/X), socket.IO, and others. This is because web applications are mostly faster to develop.
 
-We would like to think that we haven't lost time. But instead we have worked on the side that causes more dificulties to reach a "finished" prototype even if the code in C++ would be used at the final installation.
+We would like to think that we haven't lost time. But instead we have worked on the side that`s more challenging to reach a "finished" prototype that can show conceptual functionality. Althought we feel that  C++ would the best platform to use in the final physical installation.
 
-Therefore we envision a high end application for the installation using Openframeworks and a web application for the internet users written in Javascript using (WebGL, [X toolkit](https://github.com/xtk/X), socket.IO, and others).
+Therefore we envision a high-end application for the installation using Openframeworks and a web application for the Internet users written in Javascript using WebGL, [X toolkit](https://github.com/xtk/X), socket.IO, and others.
 
 We will keep giving our best until the deadline.
