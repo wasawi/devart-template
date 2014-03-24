@@ -4,7 +4,7 @@ Today we have a very important step in our development. We are realizing that we
 
 We started our project pointing at several technologies (OF, googleAPI, Oauth, to name a few). These are not web technologies. We found out that we started on a more challenging approach. And we will explain why.
 
-We wanted to have a high quality visuals and a very responsive application so we decided to do the client application in Openframeworks. The challenge with coding in C++ is that it can consume more time for us to provide a finished prototype to comply with the DevArt`s deadline. However, we are confident that can use the currently developed application as a reliable and stable interactive installation at the Barbican Center, because it is capable of running in a high-end set-up described [here]()
+We wanted to have a high quality visuals and a very responsive application so we decided to do the client application in Openframeworks. The challenge with coding in C++ is that it can consume more time for us to provide a finished prototype to comply with the DevArt`s deadline. However, we are confident that can use the currently developed application as a reliable and stable interactive installation at the Barbican Center, because it is capable of running in a high-end set-up described [here](2014-03-19-Installation-Insights.md)
 
 In our final prototype we will show most of our concepts but we feel we could have developed more. We thought that if we started with the web technology, we could have done a more comprehensive prototype using WebGL, [X toolkit](https://github.com/xtk/X), socket.IO, and others. This is because web applications are mostly faster to develop.
 
