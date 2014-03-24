@@ -1,4 +1,4 @@
-#Coding & related documentation: where are we now?
+#Coding and related documentation -  Where are we now?
 
 It`s four days to go but where are we now in terms of coding and design?
 
