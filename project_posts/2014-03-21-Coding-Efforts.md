@@ -69,7 +69,7 @@ This class is currently offering information about the selected voxel. We want t
 
 
 
-you can find more information about the talairach brain [here](http://www.talairach.org)
+You can find more information about the Talairach brain [here](http://www.talairach.org)
 ![talairach_brain](../project_images/talairach_brain.png?raw=true "talairach_brain")
 
 **tabManager**
@@ -80,10 +80,10 @@ We have done a trick here to simulate a tab. Since ofxUI is not offering tabs we
 
 Here we are handling all communication with the google API. for now we are using a twitter reader for the sake of testing. But this class will handle the Google API calls in the future.
 
-**External code**
+###External codes:
 
-Using most of the Openframeworks goodies.
-We are relying in a library which is supported by a large community.
+Below are the list of the most of the Openframeworks goodies we are using:
+We are relying in a library which is supported by a large community, yay!
 
 **ofEasyCam**
 
