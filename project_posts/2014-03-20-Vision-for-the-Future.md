@@ -23,7 +23,7 @@ How to combine different sorts of visualization seemlessly?
 		by age range of the dreamer
 		by private circles, perhaps
 
-**Users feedback regarding ideas for future development:**
+Users feedback regarding ideas for future development
 	
 	* Allow users to comment and share opinions to improve the application by
 	  creating a post in their Google+ account under #Dreamsprawler_comment hashtag.
