@@ -33,7 +33,7 @@ Whenever we are dreaming, we are actually undergoing a process of "repair". We a
 
 ## Graphics
 
-* Dreamsprawler physical installation set-up:
+* Dreamsprawler`s physical installation set-up:
 
 ![Dreamsprawler Navigation](project_images/Dreamsprawler_installation.png?raw=true "Dreamsprawler Navigation")
 
