@@ -76,7 +76,9 @@ Similarly, Pip can be used to upgrade itself via:
 ![G+ connection confirmation](../project_images/Gplus_connected.png?raw=true "G+ connection confirmation")
 
 
-### This is a simple command-line sample for the Google+ API that retrieves the list of the user's posts
+# This is a simple command-line sample for the Google+ API that retrieves the list of the user's posts
+
+https://developers.google.com/api-client-library/python/start/installation
 
 assuming that the client_secrets.json file was edited and supplied with G+ client ID and client secret, run the python application (see code below) in the terminal:
 
