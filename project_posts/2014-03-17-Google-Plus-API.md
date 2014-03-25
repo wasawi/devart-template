@@ -76,21 +76,21 @@ Similarly, Pip can be used to upgrade itself via:
 ![G+ connection confirmation](../project_images/Gplus_connected.png?raw=true "G+ connection confirmation")
 
 
-# This is a simple command-line sample for the Google+ API that retrieves the list of the user's posts
+## This is a simple command-line sample for the Google+ API that retrieves the list of the user's posts
 
 First follow all the steps here:
 https://developers.google.com/api-client-library/python/start/installation
 
 Then create a new API key using google's console:
-https://console.developers.google.com/project/796723238762/apiui/credential
-Client ID for native application
-Redirect URIs	
-urn:ietf:wg:oauth:2.0:oob
-http://localhost
+
+ https://console.developers.google.com/project/796723238762/apiui/credential
+ Client ID for native application
+ Redirect URIs	
+ urn:ietf:wg:oauth:2.0:oob
+ http://localhost
 
 download the new client_secrets.json file and put it next to the plus.py file.
-
-assuming that the client_secrets.json file was edited and supplied with G+ client ID and client secret, run the python application (see code below) in the terminal:
+Assuming that the client_secrets.json file was edited and supplied with G+ client ID and client secret, run the python application (see code below) in the terminal:
 
 ![Users post bash](../project_images/Users_post_bash.png?raw=true "Users post bash")
 
@@ -102,7 +102,13 @@ After accepting, you should see this page confirmation:
 
 ![Users post authentication](../project_images/Users_post_authentication.png?raw=true "Users post authentication")
 
-To get the query of the hashtag #dreamsprawler, we can then use a similar request command as:
+
+
+##To get the query of the hashtag #dreamsprawler, we can then use a similar request command as:
+
+https://developers.google.com/+/api/latest/activities/search
+https://console.developers.google.com/project/796723238762/apiui/api/plus/method/plus.activities.search
+
 
 ```
 GET https://www.googleapis.com/plus/v1/activities?query=%23Dreamsprawler&key={YOUR_API_KEY}
