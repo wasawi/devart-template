@@ -14,7 +14,7 @@ In the list of services, find the Google+ API make sure that it is turned on:
 
 ![G+ connection](../project_images/Gplus_API_on.png?raw=true "G+ connection")
 
-Clicking the API Access will allow you to create an OAuth 2.0 client ID:
+Clicking the API Access allowed us to create an OAuth 2.0 client ID:
 
 ![G+ OAuth](../project_images/Gplus_API_OAuth.png?raw=true "G+ OAuth")
 
@@ -83,13 +83,11 @@ https://developers.google.com/api-client-library/python/start/installation
 
 Then create a new API key using google's console:
 
- https://console.developers.google.com/project/796723238762/apiui/credential
- Client ID for native application
- Redirect URIs	
- urn:ietf:wg:oauth:2.0:oob
- http://localhost
+ https://console.developers.google.com/project/796723238762/apiui/credential  
+ Client ID for native application  
+ Redirect URIs: urn:ietf:wg:oauth:2.0:oob, http://localhost
 
-download the new client_secrets.json file and put it next to the plus.py file.
+Download the new client_secrets.json file and put it next to the plus.py file.
 Assuming that the client_secrets.json file was edited and supplied with G+ client ID and client secret, run the python application (see code below) in the terminal:
 
 ![Users post bash](../project_images/Users_post_bash.png?raw=true "Users post bash")
@@ -101,7 +99,6 @@ Running this application will also open a web browser asking for user authentica
 After accepting, you should see this page confirmation:
 
 ![Users post authentication](../project_images/Users_post_authentication.png?raw=true "Users post authentication")
-
 
 
 ##To get the query of the hashtag #dreamsprawler, we can then use a similar request command as:
