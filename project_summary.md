@@ -28,7 +28,7 @@ If our brain is a living semantic environment, how will it perform when its bein
 
 One of the motivation of Dreamsprawler is to create an awareness of the technological singularity. Advances in brain computing is fast approaching than we think it is. We are just waiting for the technology to mature. In science for instance, there are already existing efforts to decode the mind by tapping into the brain while we are conscious or even unconscious.  There is also this recent discovery of the real wiring structure of neurons in the brain which has a structured form compared to the previous belief that it isn`t. Science and technology is pushing the boundaries fast, leaving ordinary people like us wondering of its potential implications. We have to be able to hear and experience the story of how technology and science interact. 
 
-Whenever we are dreaming, we are actually undergoing a process of "repair". We are repairing not just our body but also preparing our minds for the next day or even our future. Our brain is sharing to us through dreams what needs to be learned or skills we need to acquire. We experience nightmares because our mind needs to learn and cope up with the daily pressure and dangers in life. Dreams are essential to our well-being. Dreams can also give us a hint of the areas in life that we need to improve. By sharing fragments of our dream story to Dreamsprawler we`ll be able to discover our relationship with the unconcious part of us and the environment we are living in.
+Whenever we are dreaming, we are actually undergoing a process of "repair". We are repairing not just our body but also preparing our minds for the next day or even our future. Our brain is sharing to us through dreams what needs to be learned or skills we need to acquire. We experience nightmares because our mind needs to learn and cope up with the daily pressure and dangers in life. Dreams are essential to our well-being. Dreams can also give us a hint of the areas in life that we need to improve. By sharing fragments of our dream storhttps://github.com/wasawi/devart-template/edit/master/project_summary.md#y to Dreamsprawler we`ll be able to discover our relationship with the unconcious part of us and the environment we are living in.
 
 
 ## Graphics
@@ -41,7 +41,7 @@ Whenever we are dreaming, we are actually undergoing a process of "repair". We a
 
 http://youtu.be/z0uM33wXTK8
 
-[![Dreamsprawler app](project_images/brain_demo.png?raw=true)](http://youtu.be/z0uM33wXTK8)
+[![Dreamsprawler app](project_images/brain_demo_.png?raw=true)](http://youtu.be/z0uM33wXTK8)
 
 
 ## Link to Prototype
