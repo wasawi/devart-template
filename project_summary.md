@@ -11,7 +11,7 @@
 
 [Wendy Ann Mansilla](http://folk.ntnu.no/wendyann/)
 
-[Jordi Puig](http://www.wasawi.com), [@Github](http://github.com/wasawi)
+[Jordi Puig](http://www.wasawi.com), http://github.com/wasawi
 
 
 ## Description
