@@ -39,7 +39,6 @@ Whenever we are dreaming, we are actually undergoing a process of "repair". We a
 
 * Dreamsprawler`s GUI video showing detailed view of the brain and the initial mapping of the parsed dream data:
 
-http://youtu.be/z0uM33wXTK8
 
 [![Dreamsprawler app](project_images/brain_demo_.png?raw=true)](http://youtu.be/z0uM33wXTK8)
 
