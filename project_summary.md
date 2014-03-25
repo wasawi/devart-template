@@ -9,9 +9,9 @@
 ***
 
 
-Wendy Ann Mansilla, http://folk.ntnu.no/wendyann/
+[Wendy Ann Mansilla](http://folk.ntnu.no/wendyann/)
 
-Jordi Puig, [Github account](http://github.com/wasawi), http://www.wasawi.com
+[Jordi Puig](http://www.wasawi.com), [@Github](http://github.com/wasawi)
 
 
 ## Description
