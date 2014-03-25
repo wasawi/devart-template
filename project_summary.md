@@ -47,7 +47,7 @@ http://youtu.be/z0uM33wXTK8
 ## Link to Prototype
 https://github.com/wasawi/Dreamsprawler
 
-Our Current coding progress:
+Our initial coding progress:
 
 We are currently focusing in two coding approach:
 	A client application that handles all visualization.
