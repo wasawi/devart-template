@@ -14,7 +14,7 @@ Jordi Puig, Andrew Perkis, Aud Sissel Hoel, and Alvaro Cassinelli. (2013). A-me:
 
 * We would also like to explore digital storytelling by generating stories of the people`s world dream. Wendy has developed an installation called Candy that generates the most popular food cravings of people at a given time. Candy take twits of users to create a narrative food palette:
 
-[![Candy](../project_images/ref_3b.png?raw=true)](https://www.youtube.com/watch?v=XQum_UZOzuQ)
+[![Candy](../project_images/Candy.png?raw=true)](https://www.youtube.com/watch?v=XQum_UZOzuQ)
 
 A journal explaining the scientific concept of Candy is published at:
 
