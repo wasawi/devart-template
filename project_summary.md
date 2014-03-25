@@ -2,7 +2,7 @@
 
 
 
-**"The Internet and dreams are the same, they are areas where the mind escapes...Its potential is wonderful, the ability to see a friend`s dream as if its your own inspirational experience, both of you seeing the same dream."**
+***"The Internet and dreams are the same, they are areas where the mind escapes...Its potential is wonderful, the ability to see a friend`s dream as if its your own inspirational experience, both of you seeing the same dream."***
 (from the movie "Paprika" by Satoshi Kon)
 
 
@@ -11,7 +11,7 @@
 
 Wendy Ann Mansilla, http://folk.ntnu.no/wendyann/
 
-Jordi Puig, http://github.com/wasawi, http://www.wasawi.com
+Jordi Puig, [Github account](http://github.com/wasawi), http://www.wasawi.com
 
 
 ## Description
