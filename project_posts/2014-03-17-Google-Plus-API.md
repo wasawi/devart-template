@@ -78,7 +78,17 @@ Similarly, Pip can be used to upgrade itself via:
 
 # This is a simple command-line sample for the Google+ API that retrieves the list of the user's posts
 
+First follow all the steps here:
 https://developers.google.com/api-client-library/python/start/installation
+
+Then create a new API key using google's console:
+https://console.developers.google.com/project/796723238762/apiui/credential
+Client ID for native application
+Redirect URIs	
+urn:ietf:wg:oauth:2.0:oob
+http://localhost
+
+download the new client_secrets.json file and put it next to the plus.py file.
 
 assuming that the client_secrets.json file was edited and supplied with G+ client ID and client secret, run the python application (see code below) in the terminal:
 
