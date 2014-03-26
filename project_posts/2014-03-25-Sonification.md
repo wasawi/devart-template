@@ -6,7 +6,7 @@ Dream reports are encoded considering the categorical structure of Hall and Van 
 
 Additional coding improvements:
 
-- encoding of dream reports to HVC is still yet to be accomplished.
 - improving sound quality & synthesis
 - testing out various sound files
+- integration with the brain app
 
