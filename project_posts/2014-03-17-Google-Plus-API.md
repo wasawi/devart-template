@@ -1,5 +1,7 @@
 ## Google+ API user`s post and activities retrieval test
 
+*Note: Using Python with Google+ API is frustrating especially if you have Xcode and other Python math and science packages previously installed. We spend so much time troubleshooting until finally we just need to re-install everything in a freshly formatted Mac.
+
 There is no real straightforward way to test Google+ API for fetching data, we have to go over several examples. For this project, we decided to use python scripting to later on integrate it with OpenFrameworks and three.js. 
 
 The installation procedure for the Google + API various from one machine to another depending on the package manager that you are using. But, here is our steps:
