@@ -29,7 +29,8 @@ We will use the Volume as source for the visualization and the 3D-model of the m
 
 ### Application requirements:
 --------------------------------------------------------------------------------
-		• We need full Unicode support in the application so that people can use any language to search, create or read posts.
+		• We need full Unicode support in the application so that 
+		people can use any language to search, create or read posts.
 		For this reason we will use ofxFTGL
 		• We would like to offer browser tool too.
 
