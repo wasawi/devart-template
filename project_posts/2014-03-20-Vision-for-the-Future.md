@@ -2,7 +2,7 @@
 
 We are seeing some challenges in the development of the stable release of Dreamsprawler, for instance:
 
-How to encourage users to upload and share data such as:
+How to encourage users to upload and share data in a cloud, such as:
 
 	* EEG, other biometric signals or sources.
 	* videos and audio recordings
@@ -27,5 +27,8 @@ Users feedback regarding ideas for future development
 	
 	* Allow users to comment and share opinions to improve the application by
 	  creating a post in their Google+ account under #Dreamsprawler_comment hashtag.
+
+
+
 
 	
