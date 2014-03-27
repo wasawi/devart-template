@@ -9,7 +9,7 @@ The installation procedure for the Google + API various from one machine to anot
 
 * Step 1: We generated an API key through Google API Console which gives us the authentication access with OAuth 2.0 - the client ID and client secret. 
 
-Point your browser to code.google.com/apis/console/ and it will take you to the login page of the API Console. 
+Point your browser to https://console.developers.google.com and it will take you to the login page of the API Console. 
 
 In the list of services, find the Google+ API make sure that it is turned on:
 
