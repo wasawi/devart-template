@@ -2,3 +2,5 @@ Gallant/
 pycortex/
 install/
 node_modules/
+google-api-python-client/
+setuptools*
