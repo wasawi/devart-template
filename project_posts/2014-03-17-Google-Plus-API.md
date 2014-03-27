@@ -16,10 +16,7 @@ In the list of services, find the Google+ API make sure that it is turned on:
 
 ![G+ connection](../project_images/Gplus_API_on.png?raw=true "G+ connection")
 
-Clicking the API Access allowed us to create an OAuth 2.0 client ID:
-
-![G+ OAuth](../project_images/Gplus_API_OAuth.png?raw=true "G+ OAuth")
-
+Clicking the API Access allowed us to create an OAuth 2.0 client ID.
 
 * Step 2: We installed Python using Homebrew:
 
