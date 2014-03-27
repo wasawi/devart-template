@@ -1,6 +1,6 @@
 ## Google+ API user`s post and activities retrieval test
 
-*Note: Using Python with Google+ API is frustrating especially if you have Xcode and other Python math and science packages previously installed. We spend so much time troubleshooting until finally we just need to re-install everything in a freshly formatted Mac.
+*Note: Using Python with Google+ API is frustrating especially if you other Python math and science packages previously installed. We spend so much time troubleshooting until finally we just need to re-install everything in a freshly formatted Mac.
 
 There is no real straightforward way to test Google+ API for fetching data, we have to go over several examples. For this project, we decided to use python scripting to later on integrate it with OpenFrameworks and three.js. 
 
@@ -48,8 +48,6 @@ Similarly, Pip can be used to upgrade itself via:
  $ git clone https://github.com/googleplus/gplus-quickstart-python.git
  $ wget https://github.com/googleplus/gplus-quickstart-python/archive/master.zip
  $ unzip gplus-quickstart-python-master.zip
- $ cd gplus-quickstart-python
- $ pip install -r requirements.txt
 ```
  Go to the directory with the sample app and install the requirements of this quick start
 ```
