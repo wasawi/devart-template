@@ -21,12 +21,12 @@ Dreamsprawler will use the hardware technology of a previously deployed installa
 http://vimeo.com/68279845
 
 
-In other installations we used a tracking systems to allow users using probe to explore the brain.  That setup looks impressive but it has also several drawbacks:
+In other installations we used a tracking systems to allow users to use probe trackers to explore the brain.  That setup looks impressive but it has also several drawbacks:
 
 • It is very difficult to prevent tracking misalignment by occlusion. 
 
 
-• It takes a huge effort to set it up. The cameras have to be calibrated every time they are moved and that requires training.
+• It takes a huge effort to set-up. The cameras have to be calibrated every time they are moved and that requires training.
 
 
 • The cost of the equipment is very high.
