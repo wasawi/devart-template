@@ -8,11 +8,11 @@ The brain will start populating with the dreams of people that contain those wor
 The user is then able to look though the titles of the dreams on the brain and fine tune the search either by introducing more keywords or by selecting an area or region on the brain.
 The user is also able to upload dreams containing text, images, sounds or videos. All these data will be uploaded at Google+ under the #dreamsprawler hashtag.
 
-**Here are the main coding effort:**
+**Here are the main coding efforts:**
 - Dreamsprawler application:
 	- This is the client application that handles the visualization. The application for the user.
 	- It also manages queries to Google+ API
-	- Uses volume rendering (ofxVolumetrix) to display a real brain. (taken form UC Berkeley's dataset).
+	- Uses volume rendering (ofxVolumetrix) to display a real brain. (taken form Gallant Lab's dataset).
 	- Uses ofxUI as a GUI to allow users to search and show posts on top of the visualization.
 	- It also handles user interation on the volume so that people can select a precise area of the brain to fine tune a query.
 
@@ -62,7 +62,7 @@ We will use the Volume as source for the visualization and the 3D-model of the m
 		√ Filter mouse events. otherwise, we cannot controll where to click.
 		√ enable/disable camera movements with key
 		√ store camera matrices using Roy mcDonald's camerasaveLoad
-		√ use ofxSuperLogger for looging actions
+		√ use ofxSuperLogger for logging actions
 
 
 ### BUGS
