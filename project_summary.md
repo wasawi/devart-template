@@ -63,5 +63,24 @@ Discussion about technologies [here](project_posts/2014-03-23-About-technologies
 
 ## Hardware Requirements and Installation Insights
 
-[Installation insights here](2014-03-19-Installation-Insights.md)
+•SensAble Phantom Omni
+
+•SensAble Phantom Desktop
+
+The rest of the equipment could be the following:
+
+•120Hz monitor for shutter glasses
+
+•Nvidia 3dVision Pro kit
+
+•Nvidia quadro 4000
+
+• Desktop computer
+
+• Structure
+
+• Half silvered mirror
+
+
+[More discussion of installation insights here](project_posts/2014-03-19-Installation-Insights.md)
 
