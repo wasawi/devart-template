@@ -56,10 +56,10 @@ Discussion about the code [here](project_posts/2014-03-21-Coding-Efforts.md)
 
 ## Links to External Libraries
 
-[Google+ API](https://developers.google.com/+/api/ "Google+ API"), [Gallant semantic space](http://gallantlab.org/ "GAllant semantic space"), [Openframeworks](http://www.openframeworks.cc/ "Openframeworks"), [X toolkit](https://github.com/xtk/X), [three.js](http://threejs.org/), [socket.io](http://socket.io/)
+[Google+ API](https://developers.google.com/+/api/ "Google+ API"), [Gallant semantic space](http://gallantlab.org/ "GAllant semantic space"), [Openframeworks](http://www.openframeworks.cc/ "Openframeworks"), [X toolkit](https://github.com/xtk/X), [three.js](http://threejs.org/), [socket.io](http://socket.io/), Pure Data (http://puredata.info/)
 
 
-Discussion about technologies [here](project_posts/2014-03-23-About-technologies.md)
+More OF external libraries [here](project_posts/2014-03-21-Coding-Efforts.md) and discussion about technologies [here](project_posts/2014-03-23-About-technologies.md)
 
 ## Hardware Requirements and Installation Insights
 
