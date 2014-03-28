@@ -1,4 +1,4 @@
-#Sonification Concepts
+#Sonification Insights
 
 Once dream reports are parsed and rated, two audio patches can now process the data to generate corresponding sounds. Dream reports are encoded considering the categorical structure of Hall and Van de Castle Coding System (HVC) and are passed to two sonification apps in PureData - audio synthesizer and pre-recorded audio playlist.
 
