@@ -61,3 +61,7 @@ Discussion about the code [here](project_posts/2014-03-21-Coding-Efforts.md)
 
 Discussion about technologies [here](project_posts/2014-03-23-About-technologies.md)
 
+## Hardware Requirements and Installation Insights
+
+[Installation insights here](2014-03-19-Installation-Insights.md)
+
