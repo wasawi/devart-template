@@ -84,5 +84,5 @@ The rest of the equipment could be the following:
 • Speaker
 
 
-[More discussion of installation insights here](project_posts/2014-03-19-Installation-Insights.md)
+More discussion of installation insights [here](project_posts/2014-03-19-Installation-Insights.md)
 
