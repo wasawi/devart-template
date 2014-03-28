@@ -1,5 +1,4 @@
-
-We have done a big amount of work these days. Coding trying and a lot of research on develpment platforms. There could have been a lot of possibilities for project coding improvement but time is up. 
+We have done a big amount of work these days. Coding and trying a lot of research on development platforms. There could have been a lot of possibilities for project coding improvement but time is up. 
 
 In general, we have implemented the installation prototype of the project. We want to create a web interface as well but we realized that coding two platforms in a month is a bit too ambitious. The standalone version that we developed at the moment is good enough but we want more things to improve:
 
