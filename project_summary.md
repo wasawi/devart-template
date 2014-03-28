@@ -48,10 +48,11 @@ https://github.com/wasawi/Dreamsprawler
 
 Our initial coding progress:
 
-We are currently focusing in the following coding approach:
-	A client application that handles all visualization.
+We are currently focusing on the following coding approach:
+	
+	A client application that handles all visualization of the brain responses and dream 	stories
+	
 	The ofxGallant add-on to map parsed dreams to the brain space.
-	Visualisation of the dream stories.
 
 Discussion about the code [here](project_posts/2014-03-21-Coding-Efforts.md)
 
