@@ -4,3 +4,4 @@ install/
 node_modules/
 google-api-python-client/
 setuptools*
+google-api-python-client-2/
