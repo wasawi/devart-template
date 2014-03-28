@@ -29,9 +29,9 @@ In other installations we used a tracking systems to allow users to use probe tr
 • It takes a huge effort to set-up. The cameras have to be calibrated every time they are moved and that requires training.
 
 
-• The cost of the equipment is very high.
+• Although we are able to access and use the current equipments, the cost is very high and the shipping cost is high too.
 
-Therefore we would like to try other technologies, which are more interesting for this use case. Haptic devices would allow us to use force feedback so that the user can have also a feeling when navigating the brain. Searching through information would then become more physical.Here are some suggestions:
+Therefore we would like to try other technologies, which are more interesting for this use case. Haptic devices would allow us to use force feedback so that the user can have also a feeling when navigating the brain. Searching through information would then become more physical. Here are some suggestions:
 
 
 •[SensAble Phantom Omni](http://goo.gl/ROsRWE)
@@ -55,6 +55,8 @@ The rest of the equipment could be the following:
 • Structure
 
 • Half silvered mirror
+
+• Speaker
 
 
 
