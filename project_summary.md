@@ -16,7 +16,7 @@
 
 ## Description
 
-Dreamsprawler aims to map people's dreams on a brain. It could also be rephrased as the "global map of people's dreams". Users of the application will be able to tell their dreams using text, images, voices, or videos. All of these data will be uploaded to Google+ under #Dreamsprawler hashtag. Our application will use these data to allow users to revisit other people's dreams.
+Dreamsprawler aims to map people's dreams on a brain. It could also be rephrased as the "global map of people's dreams". Users of the application will be able to tell their dreams using text, images, voices, or videos. All of these data is uploaded to Google+ under #Dreamsprawler hashtag. Our application will use these data to allow users to revisit other people's dreams.
 
 The viewer will then be able to navigate a brain, where all dreams will be placed. Searching for keywords will display dream locations in the brain space. Dreamsprawler will also rank the world dream and display top dream texts and their corresponding imagery to form a coherent dream story. The mapping between dream contexts and brain neural responses will be done by using the Gallant Lab`s data correlations  (www.gallantlab.org).
 
