@@ -18,7 +18,7 @@
 
 Dreamsprawler aims to map people's dreams on a brain. It could also be rephrased as the "global map of people's dreams". Users of the application will be able to tell their dreams using text, images, voices, or videos. All of these data will be uploaded to Google+ under #Dreamsprawler hashtag. Our application will use these data to allow users to revisit other people's dreams.
 
-The viewer will then be able to navigate a brain, where all dreams will be placed. Searching for keywords will display dream locations in the brain space. Dreamsprawler will also rank the world dream and display top dream texts and their corresponding imagery to form a coherent dream story. The mapping between dream contexts and brain neural responses will be done by using the Gallant Lab`s data correlations (www.gallantlab.org).
+The viewer will then be able to navigate a brain, where all dreams will be placed. Searching for keywords will display dream locations in the brain space. Dreamsprawler will also rank the world dream and display top dream texts and their corresponding imagery to form a coherent dream story. The mapping between dream contexts and brain neural responses will be done by using the Gallant Lab`s data correlations  (www.gallantlab.org).
 
 
 
@@ -48,9 +48,10 @@ https://github.com/wasawi/Dreamsprawler
 
 Our initial coding progress:
 
-We are currently focusing in two coding approach:
+We are currently focusing in the following coding approach:
 	A client application that handles all visualization.
 	The ofxGallant add-on to map parsed dreams to the brain space.
+	Visualisation of the dream stories.
 
 Discussion about the code [here](project_posts/2014-03-21-Coding-Efforts.md)
 
