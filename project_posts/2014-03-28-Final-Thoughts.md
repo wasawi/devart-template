@@ -1,4 +1,3 @@
-## Final Thoughts
 
 We have done a big amount of work these days. Coding trying and a lot of research on develpment platforms. There could have been a lot of possibilities for project coding improvement but time is up. 
 
@@ -13,6 +12,7 @@ In general, we have implemented the installation prototype of the project. We wa
 4. Testing in a real user scenario or installations space.
 
 5. Improve integration of apps and test stability.
+
 
 It has been a very productive to use github and DevArt website as a tool to actually help us work together remotely. Each of us had tasks and documented our respective processes in this proposal.  Our process in interaction design and initial coding prototype that we blogged here also helped us learn more about each other`s progresses and sometimes helped us recreate or recheck tasks that the other has already done before.
 
