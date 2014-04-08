@@ -1,0 +1,65 @@
+
+
+
+week commencing 5 May Stage 1 a: Week 18 - May 1-5 Database Optimization (Gallant data)
+
+Coding Tasks: Wendy will take care of the dataset handling in Python which will handling more than 7500 stimulants across about 75,000 voxel responses. Jordi will take care of the ofxGallant addon designed to handle brain visualisation using fMRI data in openFrameworks.
+	
+Software Deliverable: Optimised huge dataset and ofx Gallant addon
+Logistics:
+- May 1-2: Final decision on hardware shopping list. Purchase 3 important hardwares: haptic device, computer, and a new manikin. 
+   * week commencing 12 May 
+Stage 1 b: Week 19 - May 6-12 Database Optimization Integration & Testing (Gallant data)
+
+Coding Tasks: By this time Wendy will provide the optimised database to Jordi to be fed to the ofxGallant addon. Wendy and Jordi will test the app.
+ Software Deliverable: Optimised huge dataset integration in Dreamsprawler. 
+
+ *. week commencing 19 May
+
+Stage 2: Week 20 - May 12 - 19 Tracking System Integration
+
+	  Coding Tasks: Jordi will start implementing the new tracking system -using Haptic device.
+
+Software Deliverable:  Tracking system working within Dreamsprawler brain app.
+ Logistics:
+
+- May 12- 15: Communicate with Devart and book travel to the Barbican Centre. All administrative requirements such as insurance, shipping information will be enquired / processed at this stage.
+
+- May 15-19: Build the physical installation structure at the university workshop
+  * week commencing 26 May  Stage 3 a: Week 21 - May 19 - 26 Stable handling of data from Google+ & storytelling generation
+ Coding tasks:
+- Jordi will ensure the Google+ is handled well  in openFrameworks.
+- Since thousands of dreams are required to test our project, we will populate using the dream databank (http://www.dreambank.net/) and request friends to post messages at Google+ under the hastag of #Dreamsprawler
+- Wendy will take care of the aesthetics quality of storytelling generation, in addition, she will expand the images and sound files in the project file system and test its stability and aesthetics when combined with the newly implemented database
+
+Software Deliverable:  ofxGoogleplus addon and populated dream data
+
+ * week commencing 2 June  Stage 3 b: Week 22 - May 26 - June 2 Stable handling of data from Google+ & storytelling generation integration
+
+Coding tasks:
+- Jordi will code a stable storytelling manager in dreamsprawler and Wendy will test the sonification app integrated with the dreamsprawler brain app.
+
+Software Deliverable:  storytelling manager addon and integrated sonification app.
+
+Logistics:
+-  May 30. Ship the structure and other equipment to Barbican Centre. We expect this to arrive in a week.
+  * week commencing 9 June  Stage 4: Week 23. Overall software integration and testing
+
+Tasks: 
+- we will install and test Dreamsprawler`s overall user interaction and navigation modes and make sure the whole application is on a stable stage. 
+
+Logistics: 
+- We will polish the stable release of our code and make sure that it is suitable for public release.
+
+ * week commencing 16 June  Stage 5: Week 24. Nice to have add-on  - Web Implementation
+
+Coding Tasks: Week 24, (June 9-16) if everything went as planned on Week 23, we will start the web implementation of Dreamsprawler similar to Gallant Lab`s surface visualization in fMRI data using Three.js and WebGL (https://github.com/gallantlab/pycortex) we will initially implement simple static dream story updates and brain visualisation. A simple web development can be nice to have to increase the visibility of the project and to encourage dream sharing. Therefore, if time will not permit within this week, we will still pursue developing the Dreamsprawler web app the week after the installation of the exhibition (starting Week 28).
+
+Software Deliverable:  Nice to have add-on  - Web Implementation
+
+Logistics: 
+-  Order the display screen and other remaining materials within UK and delivered to the Barbican Centre
+  * week commencing 23 June - this week you will be expected to be in London installing at the Barbican   Logistics:  
+- June 23: We will fly to Barbican  Center  and planned to stay until July 7.
+- June 23 - 25 - Purchase hardware tools,  install the table, and assemble installation structure at the Barbican Centre
+- June 26-30 - Test on-site installation.
